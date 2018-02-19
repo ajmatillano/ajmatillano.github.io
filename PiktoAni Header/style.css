@@ -1,0 +1,12 @@
+body {
+  background: url('images/home.png');
+  background-size: 1280px;
+}
+
+img.hero-image {
+  position: absolute;
+  margin: auto;
+  padding: 0;
+  right: 150px;
+  top: 120px;
+}
