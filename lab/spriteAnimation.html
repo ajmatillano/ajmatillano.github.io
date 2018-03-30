@@ -1,0 +1,154 @@
+<html>
+	<head>
+		<script>
+		function showAvatar() {
+			document.getElementById("avatar").style.display = "block"
+      
+document.getElementById("avatarSideAttack").style.display = "none"
+			document.getElementById("avatarSide").style.display = "none"
+		}
+		function avatarAims() {
+			document.getElementById("avatar").style.display = "none"
+			document.getElementById("avatarSideAttack").style.display = "none"
+			document.getElementById("avatarSide").style.display = "block"
+		}
+		function avatarAttacks() {
+			document.getElementById("avatar").style.display = "none"
+			document.getElementById("avatarSide").style.display = "none"
+			document.getElementById("avatarSideAttack").style.display = "block"
+		}
+		</script>
+		<style>
+
+		#avatar {
+		display: block;
+	    width: 274px;
+	    height: 140px;
+	    background-image: url("https://www.dropbox.com/s/3npd3jijhjuedst/avatar%20spritesheet.png?dl=1");
+	    
+	    -webkit-animation: avatarSighs 1.5s steps(5) infinite;
+	       -moz-animation: avatarSighs 1.5s steps(5) infinite;
+	        -ms-animation: avatarSighs 1.5s steps(5) infinite;
+	         -o-animation: avatarSighs 1.5s steps(5) infinite;
+	            animation: avatarSighs 1.5s steps(5) infinite;
+		}
+
+
+		@-webkit-keyframes avatarSighs {
+		   from { background-position:    0px; }
+		     to { background-position: -1425px; }
+		}
+
+		@-moz-keyframes avatarSighs {
+		   from { background-position:    0px; }
+		     to { background-position: -1425px; }
+		}
+
+		@-ms-keyframes avatarSighs {
+		   from { background-position:    0px; }
+		     to { background-position: -1425px; }
+		}
+
+		@-o-keyframes avatarSighs {
+		   from { background-position:    0px; }
+		     to { background-position: -1425px; }
+		}
+
+		@keyframes avatarSighs {
+		   from { background-position:    0px; }
+		     to { background-position: -1425px; }
+		}
+
+
+		#avatarSide {
+		display: none;
+	    width: 274px;
+	    height: 140px;
+	    background-image: url("https://www.dropbox.com/s/3npd3jijhjuedst/avatar%20spritesheet.png?dl=1");
+	    
+	    -webkit-animation: avatarAims .5s steps(5) forwards;
+	       -moz-animation: avatarAims .5s steps(6) infinite;
+	        -ms-animation: avatarAims .5s steps(6) infinite;
+	         -o-animation: avatarAims .5s steps(6) infinite;
+	            animation: avatarAims .5s steps(5) forwards;
+		}
+
+
+		@-webkit-keyframes avatarAims {
+		   from { background-position: -1425px; }
+		     to { background-position: -2850px; }
+		}
+
+		@-moz-keyframes avatarAims {
+		   from { background-position:     -1425px; }
+		     to { background-position: -2850px; }
+		}
+
+		@-ms-keyframes avatarAims {
+		   from { background-position:     -1425px; }
+		     to { background-position: -2850px; }
+		}
+
+		@-o-keyframes avatarAims {
+		   from { background-position:     -1425px; }
+		     to { background-position: -2850px; }
+		}
+
+		@keyframes avatarAims {
+		   from { background-position:     -1425px; }
+		     to { background-position: 	-2850px; }
+		}
+
+
+		#avatarSideAttack {
+		display: none;
+	    width: 274px;
+	    height: 140px;
+	    background-image: url("https://www.dropbox.com/s/3npd3jijhjuedst/avatar%20spritesheet.png?dl=1");
+	    
+	    -webkit-animation: avatarAttacks 1s steps(9) forwards;
+	       -moz-animation: avatarAttacks 1s steps(10) infinite;
+	        -ms-animation: avatarAttacks 1s steps(10) infinite;
+	         -o-animation: avatarAttacks 1s steps(10) infinite;
+	            animation: avatarAttacks 1s steps(9) forwards;
+		}
+
+
+		@-webkit-keyframes avatarAttacks {
+		   from { background-position: -3135px; }
+		     to { background-position: -5700px; }
+		}
+
+		@-moz-keyframes avatarAttacks {
+		   from { background-position:     -3135px; }
+		     to { background-position: -5985px; }
+		}
+
+		@-ms-keyframes avatarAttacks {
+		   from { background-position:     -3135px; }
+		     to { background-position: -5985px; }
+		}
+
+		@-o-keyframes avatarAttacks {
+		   from { background-position:     -3135px; }
+		     to { background-position: -5985px; }
+		}
+
+		@keyframes avatarAttacks {
+		   from { background-position:     -3135px; }
+		     to { background-position: 	-5700px; }
+		}
+
+		</style>
+
+	</head>
+
+	<body>
+		<button onclick="showAvatar()">Show</button>
+		<button onclick="avatarAims()">Aim</button>
+		<button onclick="avatarAttacks()">Attack</button>
+		<div id="avatar"></div>
+		<div id="avatarSide"></div>
+		<div id="avatarSideAttack"></div>
+	</body>
+</html>
