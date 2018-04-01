@@ -1,0 +1,4 @@
+[26-Apr-2017 02:16:21 America/New_York] PHP Parse error:  syntax error, unexpected '$message' (T_VARIABLE) in /home/britucvb/public_html/acasysproperties.com/sendmessage.php on line 7
+[26-Apr-2017 03:32:07 America/New_York] PHP Parse error:  syntax error, unexpected 'Thank' (T_STRING), expecting ',' or ';' in /home/britucvb/public_html/acasysproperties.com/sendmessage.php on line 12
+[26-Apr-2017 03:33:27 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/britucvb/public_html/acasysproperties.com/sendmessage.php:13) in /home/britucvb/public_html/acasysproperties.com/sendmessage.php on line 14
+[26-Apr-2017 03:39:45 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/britucvb/public_html/acasysproperties.com/sendmessage.php:14) in /home/britucvb/public_html/acasysproperties.com/sendmessage.php on line 15

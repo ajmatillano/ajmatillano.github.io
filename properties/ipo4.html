@@ -1,0 +1,323 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+  	<!-- HEAD CONTENT -->
+  	<?php include("_head.html"); ?>
+  	<!-- !HEAD CONTENT -->
+  </head>
+  <body class="page-info">
+    <!-- HEADER -->
+    <?php include("_header.html"); ?>
+    <!-- HEADER -->
+
+    <!-- BANNER -->
+    <div class="banner"></div>
+    <!-- BANNER -->
+
+    <!-- CONTENT -->
+    <div class="content-wrapper">
+    <div class="content">
+      <!-- IPO4 -->
+      <div id="info-consultancy" class="info-consultancy" class="consultancy-public">
+        <h2>HOW DO YOU SEEK OUR LISTING CONSULTANCY SERVICES</h2>
+          <hr/>
+          <p>Fill-up and submit the "Confidential Business Information Form" below:</p>
+          <div><br/>
+            <h3>Confidential Business Information Form</h3>
+            <h5>*All information will be kept strictly confidential.</h5>
+            <form role="form" action="sendBusinessForm.php" onsubmit="return validateForm(this)" method="post" class="form-generic" >
+              <div class="table">
+                <div class="tcaption theading">
+                  CONTACT PERSON
+                </div>
+                <div class="trow">
+                  <div class="tcol">
+                    <label for="fullName">Your full name</label><br/>
+                  </div>
+                  <div class="tcol">
+                    <input name="fullName" id="fullName" placeholder="First Name and Last Name" required />
+                  </div>
+                </div>
+                <div class="trow">
+                  <div class="tcol">
+                    <label for="position">Your position in the company</label><br/>
+                  </div>
+                  <div class="tcol">
+                    <input name="position" id="position" placeholder="Job Title" required />
+                  </div>
+                </div>
+                <div class="trow">
+                  <div class="tcol">
+                    <label for="email">Your email address</label><br/>
+                  </div>
+                  <div class="tcol">
+                    <input type="email" name="email" id="email" placeholder="@mail.com" required />
+                  </div>
+                </div>
+                <div class="trow">
+                  <div class="tcol">
+                    <label for="mobile">Your mobile number</label><br/>
+                  </div>
+                  <div class="tcol">
+                    <input name="mobile" id="mobile" placeholder="" required />
+                  </div>
+                </div>
+              </div><br/>
+
+              <div class="table">
+                <div class="tcaption theading">
+                  COMPANY INFORMATION
+                </div>
+                <div class="trow">
+                  <div class="tcol">
+                    <label for="companyName">Name of your company</label>
+                  </div>
+                  <div class="tcol">
+                    <input name="companyName" id="companyName" placeholder="" required />
+                  </div>
+                </div>
+                <div class="trow">
+                  <div class="tcol">
+                    <label for="address">Address of your company</label>
+                  </div>
+                  <div class="tcol">
+                    <textarea name="address" id="address" placeholder="Unit no., Floor no., Building Name, Street, City" rows="4" required /></textarea>
+                  </div>
+                </div>
+                <div class="trow">
+                  <div class="tcol">
+                    <label for="website">Company website(s)</label><br/>
+                  </div>
+                  <div class="tcol">
+                    <input name="website" id="website" placeholder="http://www." required />
+                  </div>
+                </div>
+                <div class="trow">
+                  <div class="tcol">
+                    <label for="dateEst">When was your company established?</label><br/>
+                  </div>
+                  <div class="tcol">
+                    <input type="date" name="dateEst" id="dateEst" placeholder="mm/dd/yyyy" required />
+                  </div>
+                </div>
+                <div class="trow">
+                  <div class="tcol">
+                    <label for="shareHoldersCount">How many shareholders do you have?</label><br/>
+                  </div>
+                  <div class="tcol">
+                    <input name="shareHoldersCount" id="shareHoldersCount" placeholder="" required />
+                  </div>
+                </div>
+                <div class="trow">
+                  <div class="tcol">
+                    <label for="debts">What is current total debts of your company?</label><br/>
+                  </div>
+                  <div class="tcol">
+                    <input name="debts" id="debts" placeholder="" required />
+                  </div>
+                </div>
+                <div class="trow">
+                  <div class="tcol">
+                    <label for="listingDate">Does your company plan to get listed? If Yes, when?</label>
+                  </div>
+                  <div class="tcol">
+                    <input type="date" name="listingDate" id="listingDate" placeholder="mm/dd/yyyy" required />
+                  </div>
+                </div>
+                <div class="trow">
+                  <div class="tcol">
+                    <label for="listingAgreement">Do all of the shareholders agree to the listing?</label><br/>
+                  </div>
+                  <div class="tcol">
+                    <select name="listingAgreement">
+                      <option value="Yes">Yes</option>
+                      <option value="No">No</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="trow">
+                  <div class="tcol">
+                    <label for="desiredCapital">How much capital do you want to raise?</label>
+                  </div>
+                  <div class="tcol">
+                    <input name="desiredCapital" id="desiredCapital" placeholder="" required />
+                  </div>
+                </div>
+              </div><br/>
+
+              <div class="table">
+                <div class="tcaption theading">
+                  YOUR MAIN PRODUCTS &amp; SERVICES
+                </div>
+                <div class="trow">
+                  <div class="tcol">
+                    <input name="service1" id="service1" placeholder="1. Product/Service #1" required />
+                  </div>
+                  <div class="tcol">
+                    <input name="service2" id="service2" placeholder="2. Product/Service #2 (optional)" />
+                  </div>
+                </div>
+                <div class="trow">
+                  <div class="tcol">
+                    <input name="service3" id="service3" placeholder="3. Product/Service #3 (optional)" />
+                  </div>
+                  <div class="tcol">
+                    <input name="service4" id="service4" placeholder="4. Product/Service #4 (optional)" />
+                  </div>
+                </div>
+                <div class="trow">
+                  <div class="tcol">
+                    <input name="service5" id="service5" placeholder="5. Product/Service #5 (optional)" />
+                  </div>
+                  <div class="tcol">
+                    <input name="service6" id="service6" placeholder="6. Product/Service #6 (optional)" />
+                  </div>
+                </div>
+              </div><br/>
+
+              <div class="table">
+                <div class="tcaption theading">
+                  YOUR SALES &amp; PROFITS FOR THE PAST 5 YEARS
+                </div>
+                <div class="trow yearly-sales">
+                  <div class="tcol">
+                    <label>YEAR</label>
+                  </div>
+                  <div class="tcol">
+                    <label>2012</label>
+                  </div>
+                  <div class="tcol">
+                    <label>2013</label>
+                  </div>
+                  <div class="tcol">
+                    <label>2014</label>
+                  </div>
+                  <div class="tcol">
+                    <label>2015</label>
+                  </div>
+                  <div class="tcol">
+                    <label>2016</label>
+                  </div>
+                </div>
+                <div class="trow">
+                  <div class="tcol">
+                    <label for="sales2012">YEARLY SALES</label>
+                  </div>
+                  <div class="tcol">
+                    <input name="sales2012" id="sales2012" placeholder="Year 2012" required />
+                  </div>
+                  <div class="tcol">
+                    <input name="sales2013" id="sales2013" placeholder="Year 2013" required />
+                  </div>
+                  <div class="tcol">
+                    <input name="sales2014" id="sales2014" placeholder="Year 2014" required />
+                  </div>
+                  <div class="tcol">
+                    <input name="sales2015" id="sales2015" placeholder="Year 2015" required />
+                  </div>
+                  <div class="tcol">
+                    <input name="sales2016" id="sales2016" placeholder="Year 2016" required />
+                  </div>
+                </div>
+              </div><br/>
+
+              <div class="table">
+                <div class="tcaption theading">
+                  YOUR PROJECTED SALES &amp; PROFITS FOR THE NEXT 5 YEARS
+                </div>
+                <div class="trow yearly-sales">
+                  <div class="tcol">
+                    <label>YEAR</label>
+                  </div>
+                  <div class="tcol">
+                    <label>2017</label>
+                  </div>
+                  <div class="tcol">
+                    <label>2018</label>
+                  </div>
+                  <div class="tcol">
+                    <label>2019</label>
+                  </div>
+                  <div class="tcol">
+                    <label>2020</label>
+                  </div>
+                  <div class="tcol">
+                    <label>2021</label>
+                  </div>
+                </div>
+                <div class="trow">
+                  <div class="tcol">
+                    <label for="sales2017">YEARLY SALES</label>
+                  </div>
+                  <div class="tcol">
+                    <input name="sales2017" id="sales2017" placeholder="Year 2017" required />
+                  </div>
+                  <div class="tcol">
+                    <input name="sales2018" id="sales2018" placeholder="Year 2018" required />
+                  </div>
+                  <div class="tcol">
+                    <input name="sales2019" id="sales2019" placeholder="Year 2019" required />
+                  </div>
+                  <div class="tcol">
+                    <input name="sales2020" id="sales2020" placeholder="Year 2020" required />
+                  </div>
+                  <div class="tcol">
+                    <input name="sales2021" id="sales2021" placeholder="Year 2021" required />
+                  </div>
+                </div>
+              </div><br/>
+
+              <button  type="submit" class="btn-primary">SUBMIT FORM</button>
+              <br/><br/>
+            </form><br/>
+
+            <p>OR manually download and fill-up the "Confidential Business Information Form" below, and send it to <b>admin@acasysproperties.com</b></p>
+            <ul style="list-style-type:none">
+              <li><a style="text-decoration: underline" href="documents/confidential-business-information-form.pdf" target="_blank"><img src="images/icons/attachment.svg" style="width:15px;"/>Confidential Business Information Form(.pdf)</a>
+                <h5>*All information will be kept strictly confidential.</h5>
+              </li>
+            </ul>
+            <br/>
+            <p><b>We will only meet you AFTER you have submitted the above form to us.</b></p>
+            <br/>
+
+            <h3>Need help?</h3>
+            <p><a style="text-decoration: underline" href="http://acasysproperties.com/contact_us.html" target="_blank">Send us a message</a></p>
+            <p>OR you may reach us through the following contact information:</p>
+              <div class="col-20 label2 left">
+                <p>Office:</p>
+              </div>
+              <div class="col-80 info left">
+                <p>(+632) 997-6637</p>
+              </div>
+              <br/><br/>
+              <div class="col-20 label2 left">
+                <p>Email:</p>
+              </div>
+              <div class="col-80 info left">
+                <p>info@acasysproperties.com</p>
+              </div>
+              <br/><br/>
+              <div class="col-20 label2 left">
+                <p>Address:</p>
+              </div>
+              <div class="col-80 info left">
+                <p>Units 402 &amp; 403 Galleria Corporate Center,<br/> EDSA Cor. Ortigas Avenue, Quezon City,<br/> Philippines 1110</p>
+              </div>
+
+          </div>
+        </div>
+        <!-- IPO4 -->
+      </div>
+    </div>
+    <!-- CONTENT -->
+
+    <!-- FOOTER -->
+<?php include("_footer.html"); ?>
+    <!-- FOOTER -->
+
+    <!-- SCRIPTS -->
+    <script src="js/js.js"></script>
+    <!-- SCRIPTS -->
+  </body>
+</html>

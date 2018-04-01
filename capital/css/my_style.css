@@ -1,0 +1,87 @@
+/* YOUR CUSTOM STYLES */
+
+width: 100%;
+
+/* TEMPLATE STYLES */
+/* Necessary for full page carousel*/
+
+html,
+body,
+.view {
+    height: 100%;
+    width: 100%;
+}
+/* Navigation*/
+
+.navbar {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.scrolling-navbar {
+    -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    transition: background .5s ease-in-out, padding .5s ease-in-out;
+}
+
+.top-nav-collapse {
+    background-color: #1C2331;
+}
+
+footer.page-footer {
+    background-color: #1C2331;
+    margin-top: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #1C2331;
+    }
+}
+/* Carousel*/
+
+.carousel,
+.carousel-item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.flex-center {
+    color: #fff;
+}
+
+.carousel-caption {
+    height: 100%;
+    padding-top: 7rem;
+}
+
+/* Video Full */
+.hm-darkBlue-strong .mask,
+.hm-darkBlue-strong .full-bg-img {
+  background-color: rgba(0, 10, 40, 0.7); }
+
+/* Buttons */
+.btn-primary {
+  background-color: #F88417;
+}
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+  background-color: #E2740D!important;
+}
+
+/* Typography */
+.navbar.navbar-dark .breadcrumb a, .navbar.navbar-dark .navbar-nav .nav-item a {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  padding: 10px 20px;
+}
+h1 {
+  font-size: 250%!important;
+}
+body {
+  font-family: 'Open Sans', sans-serif!important;
+}

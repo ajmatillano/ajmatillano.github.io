@@ -1,0 +1,78 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+  	<!-- HEAD CONTENT -->
+  	<?php include("_head.html"); ?>
+  	<!-- !HEAD CONTENT -->
+  </head>
+  <body class="page-info">
+    <!-- HEADER -->
+    <?php include("_header.html"); ?>
+    <!-- HEADER -->
+
+    <!-- BANNER -->
+    <div class="banner-contact"></div>
+    <!-- BANNER -->
+
+    <!-- CONTENT -->
+    <div class="content-wrapper">
+      <div class="content">
+        <h2>CONTACT US</h2>
+        <hr/>
+        <!-- CONTACT US -->
+        <br/>
+        <div id="info-contact" class="info-contact col-50">
+
+          <div class="col-20 label2 left">
+            <p>Office:</p>
+          </div>
+          <div class="col-80 info left">
+            <p>(+632) 997-6637</p>
+          </div>
+          <br/><br/>
+          <div class="col-20 label2 left">
+            <p>Email:</p>
+          </div>
+          <div class="col-80 info left">
+            <p>info@acasysproperties.com</p>
+          </div>
+          <br/><br/>
+          <div class="col-20 label2 left">
+            <p>Address:</p>
+          </div>
+          <div class="col-80 info left">
+            <p>Units 402 &amp; 403 Galleria Corporate Center,<br/> EDSA Cor. Ortigas Avenue, Quezon City,<br/> Philippines 1110</p>
+          </div>
+        </div>
+        <div class="col-50 form-contact">
+          <form role="form" action="sendmessage.php" onsubmit="return validateForm(this)"  method="post" >
+              <div class="form-group">
+                <label for="cotactUsName">Name</label><br/>
+                <input name="cotactUsName" class="form-control" id="cotactUsName" placeholder="Enter your name" required />
+              </div>
+              <div class="form-group">
+                <label for="contactUsEmail">Email</label><br/>
+                <input name="contactUsEmail" class="form-control" id="contactUsEmail" placeholder="Email" required />
+              </div>
+              <div class="form-group">
+                <label for="contactUsMessage">Your Message</label><br/>
+                <textarea id="contactUsMessage" class="form-control" name="contactUsMessage"  placeholder="Your Message" rows="11" required ></textarea>
+              </div>
+
+              <button type="submit" class="btn-primary">SEND</button>
+            </form>
+        </div>
+      </div>
+  </div>
+    <!-- CONTENT -->
+
+
+    <!-- FOOTER -->
+<?php include("_footer.html"); ?>
+    <!-- FOOTER -->
+
+    <!-- SCRIPTS -->
+    <script src="js/js.js"></script>
+    <!-- SCRIPTS -->
+  </body>
+</html>
