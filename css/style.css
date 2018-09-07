@@ -24,8 +24,7 @@ div.mid p {
 }
 
 div.main {
-  position: relative;
-  height: 500px;
+  height: 100%;
 }
 
 div.mid {
