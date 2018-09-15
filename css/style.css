@@ -3,6 +3,9 @@ font-family: Roboto, Arial, Helvetica, sans-serif;
 color: #EE8F90;
 background-color: #0C3448;
 }
+a {
+  text-decoration: none;
+}
 body {
   text-align: center;
 }
@@ -19,7 +22,15 @@ p {
   text-align: center;
   font-weight: normal;
   font-size: 12px;
-  letter-spacing: 16px;
+  letter-spacing: 11px;
+}
+
+h4 {
+  text-align: center;
+  font-weight: normal;
+  font-size: 12px;
+  letter-spacing: 15.5px;
+  color: #0E567D;
 }
 
 div.main {
@@ -33,4 +44,20 @@ div.mid {
   display: block;
   width: 400px;
   transform: translate(-50%, -50%);
+}
+
+div.social svg {
+  padding: 0px 22px 0px 22px;
+  opacity: .5;
+  width: 24px;
+  height: 24px;
+}
+
+div.social svg:hover {
+  opacity: 1;
+}
+
+div.social {
+  margin-top: 80px;
+  margin-right: 12px;
 }
