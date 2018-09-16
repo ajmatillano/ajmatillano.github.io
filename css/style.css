@@ -62,10 +62,18 @@ div.social {
   margin-right: 12px;
 }
 
-/* Floating Logo */
+/* Animations */
 #aj {
   animation: floatAnim 4s ease-in-out infinite;
 }
+#glassesR {
+  animation: blinkAnim 10s infinite;
+}
+#glassesL {
+  animation: blinkAnim 10s infinite;
+}
+
+
 
 /* Floating Animation */
 @keyframes floatAnim {
@@ -77,5 +85,23 @@ div.social {
   }
   100% {
     transform: translate(360px,280px);
+  }
+}
+
+/* Blinking Animation */
+@keyframes blinkAnim {
+  90% {
+    transform: none;
+    animation-timing-function: ease-in;
+  }
+  90.5% {
+    transform: translateY(8px)  scaleY(0.1);
+  }
+  91% {
+    transform: scaleY(1);
+    animation-timing-function: ease-out;
+  }
+  100% {
+    transform: scaleY(1);
   }
 }
