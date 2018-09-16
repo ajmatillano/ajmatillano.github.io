@@ -61,3 +61,21 @@ div.social {
   margin-top: 80px;
   margin-right: 12px;
 }
+
+/* Floating Logo */
+#aj {
+  animation: floatAnim 4s ease-in-out infinite;
+}
+
+/* Floating Animation */
+@keyframes floatAnim {
+  0% {
+    transform: translate(360px,280px);
+  }
+  50% {
+    transform: translate(360px,270px);
+  }
+  100% {
+    transform: translate(360px,280px);
+  }
+}
