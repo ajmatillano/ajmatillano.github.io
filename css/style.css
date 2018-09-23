@@ -88,10 +88,6 @@ div.social {
   animation: appear .7s ease-in-out forwards;
 }
 
-#aj {
-  animation: floatAnim 4s 3s ease-in-out infinite;
-}
-
 div.content {
   opacity: 0;
   animation: appear .2s 1.2s forwards;
@@ -320,39 +316,6 @@ div.content {
       transform: rotateZ(0deg);
   }
 }
-
-
-/* Floating Animation */
-@keyframes floatAnim {
-  0% {
-    transform: translateY(360px,269px);
-  }
-  50% {
-    transform: translate(360px,260px);
-  }
-  100% {
-    transform: translate(360px,269px);
-  }
-}
-
-/* Blinking Animation */
-@keyframes blinkAnim {
-  90% {
-    transform: none;
-    animation-timing-function: ease-in;
-  }
-  90.5% {
-    transform: scaleY(0.1);
-  }
-  91% {
-    transform: scaleY(1);
-    animation-timing-function: ease-out;
-  }
-  100% {
-    transform: scaleY(1);
-  }
-}
-
 
 /* Circle Beat Animation */
 @keyframes circleBeatAnim {
