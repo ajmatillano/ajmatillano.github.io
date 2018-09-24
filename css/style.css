@@ -74,7 +74,7 @@ div.social {
   position: absolute;
   top: 40%;
   left: 50%;
-  display: block;
+  display: none;
   transform: translate(-50%, -50%);
 
   animation: circleBeatAnim 1s 1.2s forwards;
@@ -321,6 +321,7 @@ div.content {
 @keyframes circleBeatAnim {
   0% {
     opacity: 1;
+    display: block;
   }
   100% {
     transform: scale(1000);
