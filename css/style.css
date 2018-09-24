@@ -322,9 +322,11 @@ div.content {
   0% {
     opacity: 1;
   }
-  100% {
+  98% {
     transform: scale(1000);
     opacity: 0;
+  }
+  100% {
     left: -99999999px;
   }
 }
