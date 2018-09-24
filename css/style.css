@@ -8,6 +8,7 @@ a {
 body {
   text-align: center;
   background-color: #0C3448;
+  overflow: hidden;
 }
 
 h1 {
@@ -324,10 +325,9 @@ div.content {
   }
   98% {
     transform: scale(1000);
-  }
-  100% {   
     opacity: 0;
-    left: -99999999px;
+  }
+  100% {
   }
 }
 
