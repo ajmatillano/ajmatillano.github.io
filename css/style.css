@@ -325,6 +325,7 @@ div.content {
   100% {
     transform: scale(1000);
     opacity: 0;
+    display: none;
   }
 }
 
