@@ -117,7 +117,7 @@ div.content {
 }
 #face{
   transform: translateY(50px) scaleY(.64);
-  animation: faceAnim 3s .6s ;
+  animation: faceAnim 3s .6s forwards;
   -webkit-animation-fill-mode: forwards;/* Safari 4.0 - 8.0 */
 }
 #bangsR {
