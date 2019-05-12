@@ -1,0 +1,33 @@
+// sidemenu
+
+#sidemenu {
+  display: none;
+  background-color: $color-cream;
+  @extend .border-thin-dark;
+  border-top: none;
+  border-left: none;
+  border-bottom: none;
+  padding: 16px;
+  a {
+    text-align: center;
+  }
+  .activeLink {
+    color: $color-blue;
+    h5 {
+          border-bottom: 2px solid $color-gray;
+    }
+  }
+}
+
+// Square Grids
+.grid-1 {
+  .intro {
+    h5 {
+      margin-top: 0px;
+      font-weight: 400;
+      letter-spacing: 9px;
+    }
+  }
+}
+
+// Heads

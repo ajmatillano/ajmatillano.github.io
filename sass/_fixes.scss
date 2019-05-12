@@ -1,0 +1,13 @@
+// Adding vendor prefixes to grid values
+@mixin vendor-prefix-value($name, $value) {
+  @each $vendor in ('-webkit-', '-moz-', '-o-', '') {
+    #{$name}: #{$vendor}#{$value};
+  }
+}
+
+// Adding vendor prefixes to grid properties
+@mixin vendor-prefix-property($name, $value) {
+  @each $vendor in ('-webkit-', '-moz-', '-o-', '') {
+    #{$vendor}#{$name}: #{$value};
+  }
+}

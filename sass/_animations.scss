@@ -1,142 +1,150 @@
-* {
-font-family: Roboto, Arial, Helvetica, sans-serif;
-color: #EE8F90;
-}
-a {
-  text-decoration: none;
-}
-body {
-  text-align: center;
-  background-color: #0C3448;
-  overflow: hidden;
-}
-
-h1 {
-  font-family: 'Merriweather', serif;
-  text-align: center;
-  font-weight: bold;
-  font-size: 32px;
-  letter-spacing: 5px;
-}
-
-p {
-  text-align: center;
-  font-weight: normal;
-  font-size: 12px;
-  letter-spacing: 11px;
-}
-
-h4 {
-  text-align: center;
-  font-weight: normal;
-  font-size: 12px;
-  letter-spacing: 15.5px;
-  color: #0E567D;
-}
-
-div.main {
-  height: 100%;
-}
-
-div.mid {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  display: block;
-  width: 400px;
-  transform: translate(-50%, -50%);
-}
-
-div.social svg {
-  padding: 0px 22px 0px 22px;
-  opacity: .5;
-  width: 24px;
-  height: 24px;
-}
-
-div.social svg:hover {
-  opacity: 1;
-}
-
-div.social {
-  margin-top: 80px;
-  margin-right: 12px;
-}
-
-
-/* Circle Beat */
-#circleBeat {
-  z-index: -1000;
-  background: #F5D76A;
-  border-radius: 10000px;
+/* Head Yellow */
+#aj-head-yellow {
   opacity: 0;
-  width: 10px;
-  height: 10px;
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  display: block;
-  transform: translate(-50%, -50%);
-
-  animation: circleBeatAnim 1s 1.2s forwards;
-}
-
-/* Animations */
-#aj-head {
-  opacity: 0;
-  transform: scale(0.5);
+  transform: opacity;
   transform-origin: center;
-  animation: appear .7s ease-in-out forwards;
+  animation: appear 1.5s ease-in-out forwards;
 }
-
-div.content {
-  opacity: 0;
-  animation: appear .2s 1.2s forwards;
-}
-
-/* Transformations Default */
-#glassesR {
+#glassesR-yellow {
   transform: translateY(35px) scaleY(.50);
   animation: glassesAnimR 3s .6s forwards;
   -webkit-animation-fill-mode: forwards;/* Safari 4.0 - 8.0 */
 }
-#glassesL {
+#glassesL-yellow {
   transform: translateY(35px) scaleY(.50);
   animation: glassesAnim 1.5s .6s forwards;
   -webkit-animation-fill-mode: forwards;/* Safari 4.0 - 8.0 */
 }
-#earringsR {
+#earringsR-yellow {
   transform: translateY(-5px);
   animation: earringsAnimR 3s .6s forwards;
   -webkit-animation-fill-mode: forwards;/* Safari 4.0 - 8.0 */
 }
-#earringsL {
+#earringsL-yellow {
   transform: translateY(-5px);
   animation: earringsAnim 1.5s .6s forwards;
   -webkit-animation-fill-mode: forwards;/* Safari 4.0 - 8.0 */
 }
-#face{
+#face-yellow {
   transform: translateY(50px) scaleY(.64);
-  animation: faceAnim 3s .6s ;
+  animation: faceAnim 3s .6s forwards;
   -webkit-animation-fill-mode: forwards;/* Safari 4.0 - 8.0 */
 }
-#bangsR {
+#bangsR-yellow {
   transform: translateY(55px) scaleY(.64);
   animation: bangsAnim 3s .6s forwards;
   -webkit-animation-fill-mode: forwards;/* Safari 4.0 - 8.0 */
 }
-#bangsL {
+#bangsL-yellow {
   transform: translateY(50px) scale(.80);
   animation: bangsAnim 3s .6s forwards;
   -webkit-animation-fill-mode: forwards;/* Safari 4.0 - 8.0 */
 }
-#hairBack {
+#hairBack-yellow {
   transform: translate(0px, 20px) scaleY(.80) ;
   animation: hairBackAnim 3s .6s forwards;
   -webkit-animation-fill-mode: forwards;/* Safari 4.0 - 8.0 */
 }
 
-/* Headbang */
+
+/* Head Dark */
+#aj-head-dark {
+  opacity: 0;
+  transform: opacity;
+  transform-origin: center;
+  animation: appear 1.5s ease-in-out forwards;
+}
+#glassesR-dark {
+  transform: translateY(35px) scaleY(.50);
+  animation: glassesAnimR 3s .6s forwards;
+  -webkit-animation-fill-mode: forwards;/* Safari 4.0 - 8.0 */
+}
+#glassesL-dark {
+  transform: translateY(35px) scaleY(.50);
+  animation: glassesAnim 1.5s .6s forwards;
+  -webkit-animation-fill-mode: forwards;/* Safari 4.0 - 8.0 */
+}
+#earringsR-dark {
+  transform: translateY(-5px);
+  animation: earringsAnimR 3s .6s forwards;
+  -webkit-animation-fill-mode: forwards;/* Safari 4.0 - 8.0 */
+}
+#earringsL-dark {
+  transform: translateY(-5px);
+  animation: earringsAnim 1.5s .6s forwards;
+  -webkit-animation-fill-mode: forwards;/* Safari 4.0 - 8.0 */
+}
+#face-dark {
+  transform: translateY(50px) scaleY(.64);
+  animation: faceAnim 3s .6s forwards;
+  -webkit-animation-fill-mode: forwards;/* Safari 4.0 - 8.0 */
+}
+#bangsR-dark {
+  transform: translateY(55px) scaleY(.64);
+  animation: bangsAnim 3s .6s forwards;
+  -webkit-animation-fill-mode: forwards;/* Safari 4.0 - 8.0 */
+}
+#bangsL-dark {
+  transform: translateY(50px) scale(.80);
+  animation: bangsAnim 3s .6s forwards;
+  -webkit-animation-fill-mode: forwards;/* Safari 4.0 - 8.0 */
+}
+#hairBack-dark {
+  transform: translate(0px, 20px) scaleY(.80) ;
+  animation: hairBackAnim 3s .6s forwards;
+  -webkit-animation-fill-mode: forwards;/* Safari 4.0 - 8.0 */
+}
+
+/* Head Pink */
+#aj-head-pink {
+  opacity: 0;
+  transform: opacity;
+  transform-origin: center;
+  animation: appear 1.5s ease-in-out forwards;
+}
+#glassesR-pink {
+  transform: translateY(35px) scaleY(.50);
+  animation: glassesAnimR 3s .6s forwards;
+  -webkit-animation-fill-mode: forwards;/* Safari 4.0 - 8.0 */
+}
+#glassesL-pink {
+  transform: translateY(35px) scaleY(.50);
+  animation: glassesAnim 1.5s .6s forwards;
+  -webkit-animation-fill-mode: forwards;/* Safari 4.0 - 8.0 */
+}
+#earringsR-pink {
+  transform: translateY(-5px);
+  animation: earringsAnimR 3s .6s forwards;
+  -webkit-animation-fill-mode: forwards;/* Safari 4.0 - 8.0 */
+}
+#earringsL-pink {
+  transform: translateY(-5px);
+  animation: earringsAnim 1.5s .6s forwards;
+  -webkit-animation-fill-mode: forwards;/* Safari 4.0 - 8.0 */
+}
+#face-pink {
+  transform: translateY(50px) scaleY(.64);
+  animation: faceAnim 3s .6s forwards;
+  -webkit-animation-fill-mode: forwards;/* Safari 4.0 - 8.0 */
+}
+#bangsR-pink {
+  transform: translateY(55px) scaleY(.64);
+  animation: bangsAnim 3s .6s forwards;
+  -webkit-animation-fill-mode: forwards;/* Safari 4.0 - 8.0 */
+}
+#bangsL-pink {
+  transform: translateY(50px) scale(.80);
+  animation: bangsAnim 3s .6s forwards;
+  -webkit-animation-fill-mode: forwards;/* Safari 4.0 - 8.0 */
+}
+#hairBack-pink {
+  transform: translate(0px, 20px) scaleY(.80) ;
+  animation: hairBackAnim 3s .6s forwards;
+  -webkit-animation-fill-mode: forwards;/* Safari 4.0 - 8.0 */
+}
+
+
+/* Headbang Animation */
 @keyframes glassesAnim {
   20% {
     transform: translateY(-10px) scaleY(1);
@@ -323,11 +331,9 @@ div.content {
   0% {
     opacity: 1;
   }
-  98% {
+  100% {
     transform: scale(1000);
     opacity: 0;
-  }
-  100% {
   }
 }
 
