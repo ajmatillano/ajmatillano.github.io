@@ -1,7 +1,7 @@
 // sidemenu
 
 #sidemenu {
-  display: none;
+  display: block;
   background-color: $color-cream;
   @extend .border-thin-dark;
   border-top: none;
@@ -14,9 +14,19 @@
   .activeLink {
     color: $color-blue;
     h5 {
-          border-bottom: 2px solid $color-gray;
+      border-bottom: 2px solid $color-gray;
     }
   }
+}
+
+
+#icon-menu {
+  float: left;
+  position: fixed;
+  margin: 16px;
+}
+div.intro {
+  transition: none;
 }
 
 // Square Grids

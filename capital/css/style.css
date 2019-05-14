@@ -1,15 +1,12 @@
 /* Global Variables */
 /* Mixins */
 /* CUSTOM STYLES */
-/* line 17, /Users/annajanematillano/Documents/acasys_files/web_capital_v2/sass/style.scss */
 body {
   -webkit-font-smoothing: antialiased;
-  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
-}
+  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif; }
 
 /* TEMPLATE STYLES */
 /* Necessary for full page carousel*/
-/* line 25, /Users/annajanematillano/Documents/acasys_files/web_capital_v2/sass/style.scss */
 html,
 body,
 .view {
@@ -19,393 +16,245 @@ body,
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
-}
+  background-size: cover; }
 
 /* Navigation*/
-/* line 38, /Users/annajanematillano/Documents/acasys_files/web_capital_v2/sass/style.scss */
 .navbar.navbar-dark .breadcrumb a, .navbar.navbar-dark .navbar-nav .nav-item a,
 .navbar.navbar-light .breadcrumb a, .navbar.navbar-light .navbar-nav .nav-item a {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 16px;
   font-weight: 300;
-  padding: 10px 20px;
-}
+  padding: 10px 20px; }
 
-/* line 46, /Users/annajanematillano/Documents/acasys_files/web_capital_v2/sass/style.scss */
 .navbar {
   background-color: transparent;
-  box-shadow: none;
-}
+  box-shadow: none; }
 
-/* line 51, /Users/annajanematillano/Documents/acasys_files/web_capital_v2/sass/style.scss */
 .scrolling-navbar {
   -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
   -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
-  transition: background .5s ease-in-out, padding .5s ease-in-out;
-}
+  transition: background .5s ease-in-out, padding .5s ease-in-out; }
 
-/* line 57, /Users/annajanematillano/Documents/acasys_files/web_capital_v2/sass/style.scss */
 .navbar-dark.top-nav-collapse {
-  background-color: #1C2331;
-}
+  background-color: #1C2331; }
 
-/* line 61, /Users/annajanematillano/Documents/acasys_files/web_capital_v2/sass/style.scss */
 .navbar-light.top-nav-collapse {
-  background-color: #F9F9F9;
-}
+  background-color: #F9F9F9; }
 
-/* line 65, /Users/annajanematillano/Documents/acasys_files/web_capital_v2/sass/style.scss */
 footer.page-footer {
   background-color: #1C2331;
-  margin-top: 0;
-}
+  margin-top: 0; }
 
 /* Carousel*/
-/* line 71, /Users/annajanematillano/Documents/acasys_files/web_capital_v2/sass/style.scss */
 .carousel,
 .carousel-item,
 .active {
-  height: 100%;
-}
+  height: 100%; }
 
-/* line 77, /Users/annajanematillano/Documents/acasys_files/web_capital_v2/sass/style.scss */
 .carousel-inner {
-  height: 100%;
-}
+  height: 100%; }
 
-/* line 81, /Users/annajanematillano/Documents/acasys_files/web_capital_v2/sass/style.scss */
 .flex-center {
-  color: #fff;
-}
+  color: #fff; }
 
-/* line 85, /Users/annajanematillano/Documents/acasys_files/web_capital_v2/sass/style.scss */
 .carousel-caption {
   height: 100%;
-  padding-top: 7rem;
-}
+  padding-top: 7rem; }
 
 /* Video Full */
-/* line 91, /Users/annajanematillano/Documents/acasys_files/web_capital_v2/sass/style.scss */
 .hm-darkBlue-strong .mask,
 .hm-darkBlue-strong .full-bg-img {
-  background-color: rgba(0, 10, 40, 0.7);
-}
+  background-color: rgba(0, 10, 40, 0.7); }
 
 /* Buttons */
-/* line 96, /Users/annajanematillano/Documents/acasys_files/web_capital_v2/sass/style.scss */
 .btn-primary {
-  background-color: #F88417 !important;
-}
+  background-color: #F88417 !important; }
 
-/* line 99, /Users/annajanematillano/Documents/acasys_files/web_capital_v2/sass/style.scss */
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #F88417 !important;
-}
+  background-color: #F88417 !important; }
 
-/* line 102, /Users/annajanematillano/Documents/acasys_files/web_capital_v2/sass/style.scss */
 .btn-secondary {
   border: 1px solid #F88417 !important;
   background: transparent !important;
   color: #F88417 !important;
-  box-shadow: none;
-}
+  box-shadow: none; }
 
-/* line 109, /Users/annajanematillano/Documents/acasys_files/web_capital_v2/sass/style.scss */
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover, .btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
   background-color: #E2740D !important;
-  color: #FFFFFF !important;
-}
+  color: #FFFFFF !important; }
 
-/* line 114, /Users/annajanematillano/Documents/acasys_files/web_capital_v2/sass/style.scss */
 .btn {
   margin: 20px 0;
   background-color: #004EA0;
-  color: #FFFFFF;
-}
+  color: #FFFFFF; }
 
 /* Sections */
-/* line 121, /Users/annajanematillano/Documents/acasys_files/web_capital_v2/sass/style.scss */
 .section {
   padding: 100px 20px;
-  /*NEVER DELETE THIS*/
-}
-
-/* line 123, /Users/annajanematillano/Documents/acasys_files/web_capital_v2/sass/style.scss */
-.section img, .section .view {
-  padding: 10px;
-  box-shadow: none;
-}
-
-/* line 127, /Users/annajanematillano/Documents/acasys_files/web_capital_v2/sass/style.scss */
-.section .section-heading {
-  margin-bottom: 2rem;
-}
-
-/* line 130, /Users/annajanematillano/Documents/acasys_files/web_capital_v2/sass/style.scss */
-.section .section-description {
-  margin-bottom: 2rem;
-}
-
-/* line 133, /Users/annajanematillano/Documents/acasys_files/web_capital_v2/sass/style.scss */
-.section section {
-  margin: 100px auto;
-}
+  /*NEVER DELETE THIS*/ }
+  .section img, .section .view {
+    padding: 10px;
+    box-shadow: none; }
+  .section .section-heading {
+    margin-bottom: 2rem; }
+  .section .section-description {
+    margin-bottom: 2rem; }
+  .section section {
+    margin: 100px auto; }
 
 /* Forms */
-/* line 139, /Users/annajanematillano/Documents/acasys_files/web_capital_v2/sass/style.scss */
 .md-form {
-  margin-bottom: 20px;
-}
+  margin-bottom: 20px; }
+  .md-form label.active {
+    transform: translateY(-50%) !important; }
 
-/* line 141, /Users/annajanematillano/Documents/acasys_files/web_capital_v2/sass/style.scss */
-.md-form label.active {
-  transform: translateY(-50%) !important;
-}
-
-/* line 145, /Users/annajanematillano/Documents/acasys_files/web_capital_v2/sass/style.scss */
 textarea.md-textarea {
-  padding-top: 10px;
-}
+  padding-top: 10px; }
 
 /* About Us */
-/* line 150, /Users/annajanematillano/Documents/acasys_files/web_capital_v2/sass/style.scss */
 #aboutUs {
   height: 100%;
-  padding-top: 0;
-}
+  padding-top: 0; }
+  #aboutUs .view {
+    height: 100%;
+    background: url("../img/bitmap/city.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; }
+  #aboutUs .section {
+    height: 100%;
+    padding: 0; }
 
-/* line 153, /Users/annajanematillano/Documents/acasys_files/web_capital_v2/sass/style.scss */
-#aboutUs .view {
-  height: 100%;
-  background: url("../img/bitmap/city.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-/* line 161, /Users/annajanematillano/Documents/acasys_files/web_capital_v2/sass/style.scss */
-#aboutUs .section {
-  height: 100%;
-  padding: 0;
-}
-
-/* line 167, /Users/annajanematillano/Documents/acasys_files/web_capital_v2/sass/style.scss */
 #aboutUs.section-heading {
   padding-top: 25%;
   padding-bottom: 3rem;
-  color: #fff;
-}
+  color: #fff; }
 
 /*Contact Us */
-/* line 176, /Users/annajanematillano/Documents/acasys_files/web_capital_v2/sass/style.scss */
 .section_contact {
-  padding: 40px 0;
-}
+  padding: 40px 0; }
 
 /*Footer*/
-/* line 181, /Users/annajanematillano/Documents/acasys_files/web_capital_v2/sass/style.scss */
 footer {
   font-size: .8rem;
-  padding: 20px;
-}
+  padding: 20px; }
+  footer ul li {
+    display: inline; }
+  footer .footer_links {
+    text-align: right; }
+    footer .footer_links ul li {
+      padding-left: 20px; }
 
-/* line 184, /Users/annajanematillano/Documents/acasys_files/web_capital_v2/sass/style.scss */
-footer ul li {
-  display: inline;
-}
-
-/* line 187, /Users/annajanematillano/Documents/acasys_files/web_capital_v2/sass/style.scss */
-footer .footer_links {
-  text-align: right;
-}
-
-/* line 189, /Users/annajanematillano/Documents/acasys_files/web_capital_v2/sass/style.scss */
-footer .footer_links ul li {
-  padding-left: 20px;
-}
-
-/* line 194, /Users/annajanematillano/Documents/acasys_files/web_capital_v2/sass/style.scss */
 .footer_links {
-  text-align: right;
-}
+  text-align: right; }
 
 /* Typography */
-/* line 199, /Users/annajanematillano/Documents/acasys_files/web_capital_v2/sass/style.scss */
 h1 {
-  font-size: 250% !important;
-}
+  font-size: 250% !important; }
 
-/* line 202, /Users/annajanematillano/Documents/acasys_files/web_capital_v2/sass/style.scss */
 body {
   font-family: "Open Sans", sans-serif !important;
-  color: #222;
-}
+  color: #222; }
 
-/* line 206, /Users/annajanematillano/Documents/acasys_files/web_capital_v2/sass/style.scss */
 p {
-  line-height: 30px;
-}
+  line-height: 30px; }
 
 /* Carousel and pictures */
-/* line 213, /Users/annajanematillano/Documents/acasys_files/web_capital_v2/sass/style.scss */
 .view:not(.hm-zoom) {
-  overflow: visible;
-}
+  overflow: visible; }
 
-/* line 217, /Users/annajanematillano/Documents/acasys_files/web_capital_v2/sass/style.scss */
 .carousel-caption p {
   font-size: 1.1rem;
-  font-weight: 100;
-}
+  font-weight: 100; }
 
 /* Margin from the top */
 /* Simple blog listing */
-/* line 234, /Users/annajanematillano/Documents/acasys_files/web_capital_v2/sass/style.scss */
 .simple-blog-listing .single-post {
-  margin-bottom: 5rem;
-}
-
-/* line 236, /Users/annajanematillano/Documents/acasys_files/web_capital_v2/sass/style.scss */
-.simple-blog-listing .single-post.simple-post-text {
-  margin-bottom: 0;
-  border-bottom: 1px solid #e0e0e0;
-}
-
-/* line 240, /Users/annajanematillano/Documents/acasys_files/web_capital_v2/sass/style.scss */
-.simple-blog-listing .single-post.simple-post-text .post-pictures img {
-  margin-bottom: 1.5rem;
-}
-
-/* line 245, /Users/annajanematillano/Documents/acasys_files/web_capital_v2/sass/style.scss */
-.simple-blog-listing .single-post h5 {
-  text-align: center;
-  margin-bottom: 1.5rem;
-}
-
-/* line 249, /Users/annajanematillano/Documents/acasys_files/web_capital_v2/sass/style.scss */
-.simple-blog-listing .single-post h2 {
-  text-align: center;
-  margin-top: 2rem;
-  margin-bottom: 1.2rem;
-}
-
-/* line 255, /Users/annajanematillano/Documents/acasys_files/web_capital_v2/sass/style.scss */
-.simple-blog-listing .single-post .post-data h5 {
-  margin-bottom: 2rem;
-  font-weight: 400;
-}
-
-/* line 258, /Users/annajanematillano/Documents/acasys_files/web_capital_v2/sass/style.scss */
-.simple-blog-listing .single-post .post-data h5 i {
-  padding-left: 1rem;
-}
+  margin-bottom: 5rem; }
+  .simple-blog-listing .single-post.simple-post-text {
+    margin-bottom: 0;
+    border-bottom: 1px solid #e0e0e0; }
+    .simple-blog-listing .single-post.simple-post-text .post-pictures img {
+      margin-bottom: 1.5rem; }
+  .simple-blog-listing .single-post h5 {
+    text-align: center;
+    margin-bottom: 1.5rem; }
+  .simple-blog-listing .single-post h2 {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1.2rem; }
+  .simple-blog-listing .single-post .post-data h5 {
+    margin-bottom: 2rem;
+    font-weight: 400; }
+    .simple-blog-listing .single-post .post-data h5 i {
+      padding-left: 1rem; }
 
 /* Archive */
-/* line 270, /Users/annajanematillano/Documents/acasys_files/web_capital_v2/sass/style.scss */
 .archive ul li {
   padding-top: 0.8rem;
   border-top: 1px solid #eceeef;
-  padding-bottom: 0.3rem;
-}
-
-/* line 273, /Users/annajanematillano/Documents/acasys_files/web_capital_v2/sass/style.scss */
-.archive ul li:first-of-type {
-  border-top: none;
-}
+  padding-bottom: 0.3rem; }
+  .archive ul li:first-of-type {
+    border-top: none; }
 
 /* Author widget */
-/* line 284, /Users/annajanematillano/Documents/acasys_files/web_capital_v2/sass/style.scss */
 .simple-author-widget .author-photo {
-  margin-bottom: 1.8rem;
-}
-
-/* line 288, /Users/annajanematillano/Documents/acasys_files/web_capital_v2/sass/style.scss */
+  margin-bottom: 1.8rem; }
 .simple-author-widget .about-author h4 {
   text-align: center;
-  margin-bottom: 1.5rem;
-}
-
-/* line 292, /Users/annajanematillano/Documents/acasys_files/web_capital_v2/sass/style.scss */
+  margin-bottom: 1.5rem; }
 .simple-author-widget .about-author p {
-  text-align: justify;
-}
+  text-align: justify; }
 
 /* Simple author page */
-/* line 301, /Users/annajanematillano/Documents/acasys_files/web_capital_v2/sass/style.scss */
 .simple-author-page h1 {
-  margin-bottom: 2rem;
-}
-
-/* line 304, /Users/annajanematillano/Documents/acasys_files/web_capital_v2/sass/style.scss */
+  margin-bottom: 2rem; }
 .simple-author-page p {
-  text-align: center;
-}
-
-/* line 308, /Users/annajanematillano/Documents/acasys_files/web_capital_v2/sass/style.scss */
+  text-align: center; }
 .simple-author-page .view img {
-  margin-top: 2rem;
-}
+  margin-top: 2rem; }
 
 @media (max-width: 768px) {
-  /* line 315, /Users/annajanematillano/Documents/acasys_files/web_capital_v2/sass/style.scss */
   #aboutUs {
-    height: 120%;
-  }
-  /* line 318, /Users/annajanematillano/Documents/acasys_files/web_capital_v2/sass/style.scss */
+    height: 120%; }
+
   #aboutUs.full-bg-img,
   #aboutUs.view {
     height: auto;
-    position: relative;
-  }
-  /* line 323, /Users/annajanematillano/Documents/acasys_files/web_capital_v2/sass/style.scss */
-  .footer_links {
-    text-align: center !important;
-  }
-  /* line 326, /Users/annajanematillano/Documents/acasys_files/web_capital_v2/sass/style.scss */
-  .navbar.navbar-dark {
-    background-color: #1C2331;
-  }
-  /* line 329, /Users/annajanematillano/Documents/acasys_files/web_capital_v2/sass/style.scss */
-  .navbar.navbar-light {
-    background-color: #F9F9F9;
-  }
-  /* line 332, /Users/annajanematillano/Documents/acasys_files/web_capital_v2/sass/style.scss */
-  .section {
-    padding: 40px 20px;
-  }
-}
+    position: relative; }
 
+  .footer_links {
+    text-align: center !important; }
+
+  .navbar.navbar-dark {
+    background-color: #1C2331; }
+
+  .navbar.navbar-light {
+    background-color: #F9F9F9; }
+
+  .section {
+    padding: 40px 20px; } }
 @media (max-width: 992px) {
-  /* line 339, /Users/annajanematillano/Documents/acasys_files/web_capital_v2/sass/style.scss */
   footer div.footer_links {
-    text-align: center;
-  }
-  /* line 343, /Users/annajanematillano/Documents/acasys_files/web_capital_v2/sass/style.scss */
+    text-align: center; }
+
   footer div.footer_links ul li {
     padding-left: 0 !important;
     padding-bottom: 10px;
     text-align: center;
-    display: block;
-  }
-  /* line 350, /Users/annajanematillano/Documents/acasys_files/web_capital_v2/sass/style.scss */
+    display: block; }
+
   .description {
     padding-top: 7rem;
-    text-align: center;
-  }
-  /* line 354, /Users/annajanematillano/Documents/acasys_files/web_capital_v2/sass/style.scss */
-  #about-img {
-    max-height: 400px;
-  }
-  /* line 357, /Users/annajanematillano/Documents/acasys_files/web_capital_v2/sass/style.scss */
-  section.aboutUs div.container {
-    height: 100% !important;
-  }
-  /* line 359, /Users/annajanematillano/Documents/acasys_files/web_capital_v2/sass/style.scss */
-  section.aboutUs div.container img {
-    display: none;
-  }
-}
+    text-align: center; }
 
-/*# sourceMappingURL=../css/style.map */
+  #about-img {
+    max-height: 400px; }
+
+  section.aboutUs div.container {
+    height: 100% !important; }
+    section.aboutUs div.container img {
+      display: none; } }
+
+/*# sourceMappingURL=style.css.map */
