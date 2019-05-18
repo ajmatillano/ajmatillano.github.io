@@ -8,25 +8,26 @@
   border-left: none;
   border-bottom: none;
   padding: 16px;
-  a {
-    text-align: center;
-  }
+  text-align: center;
   .activeLink {
     color: $color-blue;
-    h5 {
-      border-bottom: 2px solid $color-gray;
-    }
+  }
+  div {
+    margin-top: 80px;
+  }
+  div:last-child {
+    display: block;
+    width: 100%;
+    left: 0px;
+    position: absolute;
+    bottom: 16px;
+    text-align: center;
   }
 }
-
-
 #icon-menu {
   float: left;
   position: fixed;
   margin: 16px;
-}
-div.intro {
-  transition: none;
 }
 
 // Square Grids
@@ -37,6 +38,12 @@ div.intro {
       font-weight: 400;
       letter-spacing: 8px;
     }
+  }
+  a {
+    display: block;
+    margin-top: 60px;
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
   }
 }
 

@@ -2,6 +2,7 @@
 
 $color-cream: #F9FAF4;
 $color-pink: #EE8F90;
+$color-pinkDarker: #CF7576;
 $color-blue: #0C3448;
 $color-yellow: #F5D76A;
 $color-gray: #4B6464;
@@ -20,6 +21,7 @@ $color-gray: #4B6464;
 }
 body {
   background-color: $color-cream;
+  color: $color-blue;
 }
 
 
@@ -35,11 +37,12 @@ body {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   line-height: 1.45;
-  color: $color-gray;
+  color: $color-blue;
 }
 
 p {
-  margin-bottom: 1.25em;
+  margin-bottom: 1.00em;
+  color: $color-gray;
 }
 
 h1, h2, h3, h4, h5 {
@@ -65,5 +68,5 @@ h5 {font-size: 1.333em;}
 small, .text_small {font-size: 0.75em;}
 
 a {
-  color: $color-pink;
+  color: $color-pinkDarker;
 }

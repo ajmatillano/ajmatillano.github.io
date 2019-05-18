@@ -180,7 +180,7 @@ body {
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   line-height: 1.5;
-  color: #0a0a0a;
+/*  color: #0a0a0a;**/
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
@@ -299,7 +299,7 @@ h6, .h6 {
   h5 small, .h5 small,
   h6 small, .h6 small {
     line-height: 0;
-    color: #cacaca; }
+  /*  color: #cacaca;*/ }
 
 h1, .h1 {
   font-size: 1.5rem;
@@ -353,11 +353,11 @@ h6, .h6 {
 
 a {
   line-height: inherit;
-  color: #0C3448;
+/*  color: #0C3448;*/
   text-decoration: none;
   cursor: pointer; }
   a:hover, a:focus {
-    color: #0a2d3e; }
+/*    color: #0a2d3e;*/ }
   a img {
     border: 0; }
 
