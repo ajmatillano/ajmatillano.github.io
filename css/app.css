@@ -99,6 +99,10 @@ a {
   margin: 16px;
 }
 
+.grid-1 .intro h2 {
+  margin-top: 0;
+}
+
 .grid-1 .intro h5 {
   margin-top: 0px;
   font-weight: 400;
