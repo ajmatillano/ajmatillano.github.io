@@ -93,6 +93,16 @@ a {
   text-align: center;
 }
 
+#sidemenu ul {
+  margin: 0;
+}
+
+#sidemenu ul li {
+  line-height: 2.5;
+  list-style-type: none;
+  font-family: 'Merriweather', serif;
+}
+
 #icon-menu {
   float: left;
   position: fixed;
@@ -114,6 +124,23 @@ a {
   margin-top: 60px;
   font-family: 'Merriweather', serif;
   font-weight: 700;
+}
+
+div.grid-works .grid-2, div.grid-works .grid-3, div.grid-works .grid-4 {
+  background: no-repeat center;
+  background-size: auto 100%;
+}
+
+div.grid-works .grid-2 {
+  background-image: url("../img/covers/svgTool.png");
+}
+
+div.grid-works .grid-3 {
+  background-image: url("../img/covers/ebMobile.png");
+}
+
+div.grid-works .grid-4 {
+  background-image: url("../img/covers/promotr.png");
 }
 
 .container {

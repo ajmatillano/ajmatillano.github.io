@@ -23,6 +23,14 @@
     bottom: 16px;
     text-align: center;
   }
+  ul {
+    margin: 0;
+    li {
+      line-height: 2.5;
+      list-style-type: none;
+      font-family: 'Merriweather', serif;
+    }
+  }
 }
 #icon-menu {
   float: left;
@@ -50,4 +58,20 @@
   }
 }
 
-// Heads
+// Works
+
+div.grid-works {
+  .grid-2, .grid-3, .grid-4 {
+    background: no-repeat center;
+    background-size: auto 100%;
+  }
+  .grid-2 {
+    background-image: url('../img/covers/svgTool.png')
+  }
+  .grid-3 {
+    background-image: url('../img/covers/ebMobile.png')
+  }
+  .grid-4 {
+    background-image: url('../img/covers/promotr.png')
+  }
+}
