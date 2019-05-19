@@ -65,6 +65,13 @@ div.grid-works {
     background: no-repeat center;
     background-size: auto 100%;
   }
+  .grid-2:hover, .grid-3:hover, .grid-4:hover {
+    cursor: pointer;
+    .work-info {
+      transition: .5s;
+      opacity: 1;
+    }
+  }
   .grid-2 {
     background-image: url('../img/covers/svgTool.png')
   }
@@ -73,5 +80,24 @@ div.grid-works {
   }
   .grid-4 {
     background-image: url('../img/covers/promotr.png')
+  }
+  .work-info {
+    opacity: 0;
+    display: flex;
+    background-image: radial-gradient(50% 85%, rgba(28,100,126,0.65) 48%, rgba(12,52,72,0.75) 92%);
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    div {
+      display: block;
+      p {
+        color: $color-yellow;
+        margin-top: -8px;
+      }
+      h5 {
+        color: $color-yellow;
+      }
+    }
   }
 }
