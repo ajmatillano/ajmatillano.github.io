@@ -131,15 +131,23 @@ a {
 }
 
 div.grid-works .grid-2, div.grid-works .grid-3, div.grid-works .grid-4 {
+  padding: 0;
   background: no-repeat center;
   background-size: auto 100%;
+}
+
+div.grid-works .grid-2 a, div.grid-works .grid-3 a, div.grid-works .grid-4 a {
+  display: block;
+  margin-top: 60px;
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
 }
 
 div.grid-works .grid-2:hover, div.grid-works .grid-3:hover, div.grid-works .grid-4:hover {
   cursor: pointer;
 }
 
-div.grid-works .grid-2:hover .work-info, div.grid-works .grid-3:hover .work-info, div.grid-works .grid-4:hover .work-info {
+div.grid-works .grid-2:hover .grid-info, div.grid-works .grid-3:hover .grid-info, div.grid-works .grid-4:hover .grid-info {
   transition: .5s;
   opacity: 1;
 }
@@ -156,7 +164,7 @@ div.grid-works .grid-4 {
   background-image: url("../img/covers/promotr.png");
 }
 
-div.grid-works .work-info {
+div.grid-works .grid-info {
   opacity: 0;
   display: flex;
   background-image: radial-gradient(50% 85%, rgba(28, 100, 126, 0.65) 48%, rgba(12, 52, 72, 0.75) 92%);
@@ -166,17 +174,44 @@ div.grid-works .work-info {
   justify-content: center;
 }
 
-div.grid-works .work-info div {
+div.grid-works .grid-info div {
   display: block;
 }
 
-div.grid-works .work-info div p {
+div.grid-works .grid-info div p {
   color: #F5D76A;
   margin-top: -8px;
 }
 
-div.grid-works .work-info div h5 {
+div.grid-works .grid-info div h5 {
   color: #F5D76A;
+}
+
+div.grid-about a {
+  display: block;
+  margin-top: 60px;
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+}
+
+div.grid-about .grid-2 p {
+  color: #0C3448;
+}
+
+div.grid-about .grid-3 p {
+  color: #F5D76A;
+}
+
+div.grid-about .grid-3 a {
+  margin-top: 0px;
+  padding: 16px;
+  display: inline-block;
+}
+
+div.grid-about .grid-4 {
+  background: no-repeat center;
+  background-size: auto 100%;
+  background-image: url("../img/covers/ajPhoto.png");
 }
 
 .container {
@@ -287,6 +322,10 @@ div.grid-works .work-info div h5 {
 
 .callout {
   margin: 0;
+}
+
+.grid-1, .grid-2, .grid-3, .grid-4 {
+  padding: 32px;
 }
 
 /* Head Yellow */
