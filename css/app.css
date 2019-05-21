@@ -45,42 +45,42 @@ p {
 h1, h2, h3, h4, h5 {
   margin: 2.75rem 0 1rem;
   font-family: 'Merriweather', serif;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 1.15;
 }
 
 /* line 58, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_global.scss */
 h1 {
   margin-top: 0;
-  font-size: 4.209em;
+  font-size: 2.488em;
 }
 
 /* line 63, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_global.scss */
 h2 {
-  font-size: 3.157em;
+  font-size: 2.074em;
 }
 
 /* line 65, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_global.scss */
 h3 {
-  font-size: 2.369em;
+  font-size: 1.728em;
 }
 
 /* line 67, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_global.scss */
 h4 {
-  font-size: 1.777em;
+  font-size: 1.44em;
 }
 
 /* line 69, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_global.scss */
 h5 {
-  font-size: 1.333em;
+  font-size: 1.2em;
 }
 
 /* line 71, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_global.scss */
 small, .text_small {
-  font-size: 0.75em;
+  font-size: 0.833em;
 }
 
-/* line 73, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_global.scss */
+/* line 75, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_global.scss */
 a {
   color: #CF7576;
 }
@@ -136,69 +136,68 @@ a {
 }
 
 /* line 44, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
-.grid-1 .intro h2 {
+.grid-1 .intro h1 {
   margin-top: 0;
 }
 
 /* line 47, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
-.grid-1 .intro h5 {
+.grid-1 .intro p {
   margin-top: 0px;
   font-weight: 400;
-  letter-spacing: 8px;
+  letter-spacing: 8.5px;
 }
 
 /* line 53, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
 .grid-1 a {
   display: block;
-  margin-top: 60px;
+  margin-top: 64px;
   font-family: 'Merriweather', serif;
-  font-weight: 700;
+  font-weight: 400;
 }
 
-/* line 67, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
+/* line 64, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
 div.grid-works .grid-2, div.grid-works .grid-3, div.grid-works .grid-4 {
   padding: 0;
   background: no-repeat center;
   background-size: auto 100%;
 }
 
-/* line 68, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
+/* line 65, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
 div.grid-works .grid-2 a, div.grid-works .grid-3 a, div.grid-works .grid-4 a {
   width: 100%;
   height: 100%;
   margin: 0;
   display: block;
-  font-family: 'Merriweather', serif;
-  font-weight: 700;
+  font-weight: 400;
 }
 
-/* line 80, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
+/* line 77, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
 div.grid-works .grid-2:hover, div.grid-works .grid-3:hover, div.grid-works .grid-4:hover {
   cursor: pointer;
 }
 
-/* line 82, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
+/* line 79, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
 div.grid-works .grid-2:hover .grid-info, div.grid-works .grid-3:hover .grid-info, div.grid-works .grid-4:hover .grid-info {
   transition: .5s;
   opacity: 1;
 }
 
-/* line 87, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
+/* line 84, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
 div.grid-works .grid-2 {
   background-image: url("../img/covers/svgTool.png");
 }
 
-/* line 90, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
+/* line 87, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
 div.grid-works .grid-3 {
   background-image: url("../img/covers/ebMobile.png");
 }
 
-/* line 93, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
+/* line 90, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
 div.grid-works .grid-4 {
   background-image: url("../img/covers/promotr.png");
 }
 
-/* line 96, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
+/* line 93, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
 div.grid-works .grid-info {
   opacity: 0;
   display: flex;
@@ -209,76 +208,101 @@ div.grid-works .grid-info {
   justify-content: center;
 }
 
-/* line 104, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
+/* line 101, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
 div.grid-works .grid-info div {
   display: block;
 }
 
-/* line 106, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
+/* line 103, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
 div.grid-works .grid-info div p {
   color: #F5D76A;
   margin-top: -8px;
 }
 
-/* line 110, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
-div.grid-works .grid-info div h5 {
+/* line 107, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
+div.grid-works .grid-info div h3 {
   color: #F5D76A;
 }
 
-/* line 119, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
+/* line 116, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
 div.grid-about a {
   display: block;
-  margin-top: 60px;
+  margin-top: 64px;
   font-family: 'Merriweather', serif;
-  font-weight: 700;
+  font-weight: 400;
 }
 
-/* line 126, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
+/* line 123, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
 div.grid-about .grid-2 p {
   color: #0C3448;
 }
 
-/* line 131, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
+/* line 128, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
 div.grid-about .grid-3 p {
   color: #F5D76A;
 }
 
-/* line 134, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
+/* line 131, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
 div.grid-about .grid-3 a {
   margin-top: 0px;
   padding: 16px;
   display: inline-block;
 }
 
-/* line 140, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
+/* line 137, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
 div.grid-about .grid-4 {
   background: no-repeat center;
   background-size: auto 100%;
   background-image: url("../img/covers/ajPhoto.png");
 }
 
-/* line 149, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
+/* line 146, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
 div.project-single {
   text-align: center;
 }
 
-/* line 151, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
+/* line 148, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
 div.project-single div.wrapper {
   display: block;
   margin: auto;
-  margin-top: 60px;
-  max-width: 950px;
+  margin-top: 64px;
+  max-width: 900px;
   text-align: left;
 }
 
-/* line 157, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
+/* line 154, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
 div.project-single div.wrapper :first-child, div.project-single div.wrapper :nth-child(2) {
   text-align: center;
 }
 
-/* line 160, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
+/* line 157, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
 div.project-single div.wrapper img:first-of-type {
-  margin-top: 60px;
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+/* line 161, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
+div.project-single div.wrapper h3, div.project-single div.wrapper h4, div.project-single div.wrapper h5 {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+/* line 166, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
+div.project-single div.separator {
+  margin: 64px;
+}
+
+/* line 169, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
+div.project-single ol {
+  list-style: upper-roman;
+}
+
+/* line 172, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
+div.project-single img + p.text_small {
+  text-align: center;
+  opacity: .80;
+  margin-bottom: 32px;
+  margin-top: 8px;
 }
 
 /* line 1, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_four-squares-layout.scss */
