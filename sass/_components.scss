@@ -61,10 +61,15 @@
 // Works
 
 div.grid-works {
+  a {
+  //  margin-top: 60px;
+  }
   .grid-2, .grid-3, .grid-4 {
     a {
+      width: 100%;
+      height: 100%;
+      margin: 0;
       display: block;
-      margin-top: 60px;
       font-family: 'Merriweather', serif;
       font-weight: 700;
     }
@@ -136,5 +141,24 @@ div.grid-about {
     background: no-repeat center;
     background-size: auto 100%;
     background-image: url('../img/covers/ajPhoto.png');
+  }
+}
+
+// Project project-single
+
+div.project-single {
+  text-align: center;
+  div.wrapper {
+    display: block;
+    margin: auto;
+    margin-top: 60px;
+    max-width: 950px;
+    text-align: left;
+    :first-child, :nth-child(2) {
+      text-align: center;
+    }
+    img:first-of-type {
+      margin-top: 60px;
+    }
   }
 }

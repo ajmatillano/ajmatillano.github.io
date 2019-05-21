@@ -1,27 +1,33 @@
 @import url("https://fonts.googleapis.com/css?family=Merriweather:400|Poppins:400");
+/* line 12, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_global.scss */
 .border-thin-dark, #sidemenu {
   border: 1px solid rgba(75, 100, 100, 0.25);
 }
 
+/* line 17, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_global.scss */
 * {
   transition-duration: .20s;
   transition-timing-function: linear;
   transition-delay: 0s;
 }
 
+/* line 22, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_global.scss */
 body {
   background-color: #F9FAF4;
   color: #0C3448;
 }
 
+/* line 26, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_global.scss */
 a:hover {
   cursor: pointer;
 }
 
+/* line 35, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_global.scss */
 html {
   font-size: 16px;
 }
 
+/* line 39, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_global.scss */
 body {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
@@ -29,11 +35,13 @@ body {
   color: #0C3448;
 }
 
+/* line 46, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_global.scss */
 p {
   margin-bottom: 1.00em;
   color: #4B6464;
 }
 
+/* line 51, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_global.scss */
 h1, h2, h3, h4, h5 {
   margin: 2.75rem 0 1rem;
   font-family: 'Merriweather', serif;
@@ -41,35 +49,43 @@ h1, h2, h3, h4, h5 {
   line-height: 1.15;
 }
 
+/* line 58, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_global.scss */
 h1 {
   margin-top: 0;
   font-size: 4.209em;
 }
 
+/* line 63, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_global.scss */
 h2 {
   font-size: 3.157em;
 }
 
+/* line 65, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_global.scss */
 h3 {
   font-size: 2.369em;
 }
 
+/* line 67, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_global.scss */
 h4 {
   font-size: 1.777em;
 }
 
+/* line 69, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_global.scss */
 h5 {
   font-size: 1.333em;
 }
 
+/* line 71, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_global.scss */
 small, .text_small {
   font-size: 0.75em;
 }
 
+/* line 73, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_global.scss */
 a {
   color: #CF7576;
 }
 
+/* line 3, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
 #sidemenu {
   display: block;
   background-color: #F9FAF4;
@@ -80,14 +96,17 @@ a {
   text-align: center;
 }
 
+/* line 12, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
 #sidemenu .activeLink {
   color: #0C3448;
 }
 
+/* line 15, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
 #sidemenu div {
   margin-top: 80px;
 }
 
+/* line 18, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
 #sidemenu div:last-child {
   display: block;
   width: 100%;
@@ -97,32 +116,38 @@ a {
   text-align: center;
 }
 
+/* line 26, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
 #sidemenu ul {
   margin: 0;
 }
 
+/* line 28, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
 #sidemenu ul li {
   line-height: 2.5;
   list-style-type: none;
   font-family: 'Merriweather', serif;
 }
 
+/* line 35, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
 #icon-menu {
   float: left;
   position: fixed;
   margin: 16px;
 }
 
+/* line 44, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
 .grid-1 .intro h2 {
   margin-top: 0;
 }
 
+/* line 47, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
 .grid-1 .intro h5 {
   margin-top: 0px;
   font-weight: 400;
   letter-spacing: 8px;
 }
 
+/* line 53, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
 .grid-1 a {
   display: block;
   margin-top: 60px;
@@ -130,40 +155,50 @@ a {
   font-weight: 700;
 }
 
+/* line 67, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
 div.grid-works .grid-2, div.grid-works .grid-3, div.grid-works .grid-4 {
   padding: 0;
   background: no-repeat center;
   background-size: auto 100%;
 }
 
+/* line 68, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
 div.grid-works .grid-2 a, div.grid-works .grid-3 a, div.grid-works .grid-4 a {
+  width: 100%;
+  height: 100%;
+  margin: 0;
   display: block;
-  margin-top: 60px;
   font-family: 'Merriweather', serif;
   font-weight: 700;
 }
 
+/* line 80, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
 div.grid-works .grid-2:hover, div.grid-works .grid-3:hover, div.grid-works .grid-4:hover {
   cursor: pointer;
 }
 
+/* line 82, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
 div.grid-works .grid-2:hover .grid-info, div.grid-works .grid-3:hover .grid-info, div.grid-works .grid-4:hover .grid-info {
   transition: .5s;
   opacity: 1;
 }
 
+/* line 87, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
 div.grid-works .grid-2 {
   background-image: url("../img/covers/svgTool.png");
 }
 
+/* line 90, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
 div.grid-works .grid-3 {
   background-image: url("../img/covers/ebMobile.png");
 }
 
+/* line 93, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
 div.grid-works .grid-4 {
   background-image: url("../img/covers/promotr.png");
 }
 
+/* line 96, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
 div.grid-works .grid-info {
   opacity: 0;
   display: flex;
@@ -174,19 +209,23 @@ div.grid-works .grid-info {
   justify-content: center;
 }
 
+/* line 104, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
 div.grid-works .grid-info div {
   display: block;
 }
 
+/* line 106, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
 div.grid-works .grid-info div p {
   color: #F5D76A;
   margin-top: -8px;
 }
 
+/* line 110, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
 div.grid-works .grid-info div h5 {
   color: #F5D76A;
 }
 
+/* line 119, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
 div.grid-about a {
   display: block;
   margin-top: 60px;
@@ -194,26 +233,55 @@ div.grid-about a {
   font-weight: 700;
 }
 
+/* line 126, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
 div.grid-about .grid-2 p {
   color: #0C3448;
 }
 
+/* line 131, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
 div.grid-about .grid-3 p {
   color: #F5D76A;
 }
 
+/* line 134, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
 div.grid-about .grid-3 a {
   margin-top: 0px;
   padding: 16px;
   display: inline-block;
 }
 
+/* line 140, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
 div.grid-about .grid-4 {
   background: no-repeat center;
   background-size: auto 100%;
   background-image: url("../img/covers/ajPhoto.png");
 }
 
+/* line 149, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
+div.project-single {
+  text-align: center;
+}
+
+/* line 151, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
+div.project-single div.wrapper {
+  display: block;
+  margin: auto;
+  margin-top: 60px;
+  max-width: 950px;
+  text-align: left;
+}
+
+/* line 157, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
+div.project-single div.wrapper :first-child, div.project-single div.wrapper :nth-child(2) {
+  text-align: center;
+}
+
+/* line 160, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_components.scss */
+div.project-single div.wrapper img:first-of-type {
+  margin-top: 60px;
+}
+
+/* line 1, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_four-squares-layout.scss */
 .container {
   display: grid;
   grid-template-rows: repeat(2, 1fr);
@@ -223,11 +291,13 @@ div.grid-about .grid-4 {
 }
 
 @media screen and (max-width: 60em) {
+  /* line 1, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_four-squares-layout.scss */
   .container {
     grid-template-rows: repeat(4, 1fr);
   }
 }
 
+/* line 19, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_four-squares-layout.scss */
 .grid-1 {
   display: flex;
   align-items: center;
@@ -240,6 +310,7 @@ div.grid-about .grid-4 {
 }
 
 @media screen and (max-width: 60em) {
+  /* line 19, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_four-squares-layout.scss */
   .grid-1 {
     grid-column-start: 1;
     grid-column-end: 5;
@@ -247,10 +318,12 @@ div.grid-about .grid-4 {
   }
 }
 
+/* line 33, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_four-squares-layout.scss */
 .grid-1 div {
   flex: 1;
 }
 
+/* line 38, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_four-squares-layout.scss */
 .grid-2 {
   display: flex;
   align-items: center;
@@ -263,6 +336,7 @@ div.grid-about .grid-4 {
 }
 
 @media screen and (max-width: 60em) {
+  /* line 38, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_four-squares-layout.scss */
   .grid-2 {
     grid-column-start: 1;
     grid-column-end: 5;
@@ -270,10 +344,12 @@ div.grid-about .grid-4 {
   }
 }
 
+/* line 52, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_four-squares-layout.scss */
 .grid-2 div {
   flex: 1;
 }
 
+/* line 57, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_four-squares-layout.scss */
 .grid-3 {
   display: flex;
   align-items: center;
@@ -286,6 +362,7 @@ div.grid-about .grid-4 {
 }
 
 @media screen and (max-width: 60em) {
+  /* line 57, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_four-squares-layout.scss */
   .grid-3 {
     grid-column-start: 1;
     grid-column-end: 5;
@@ -293,10 +370,12 @@ div.grid-about .grid-4 {
   }
 }
 
+/* line 71, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_four-squares-layout.scss */
 .grid-3 div {
   flex: 1;
 }
 
+/* line 76, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_four-squares-layout.scss */
 .grid-4 {
   display: flex;
   align-items: center;
@@ -309,6 +388,7 @@ div.grid-about .grid-4 {
 }
 
 @media screen and (max-width: 60em) {
+  /* line 76, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_four-squares-layout.scss */
   .grid-4 {
     grid-column-start: 1;
     grid-column-end: 5;
@@ -316,19 +396,23 @@ div.grid-about .grid-4 {
   }
 }
 
+/* line 90, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_four-squares-layout.scss */
 .grid-4 div {
   flex: 1;
 }
 
+/* line 95, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_four-squares-layout.scss */
 .callout {
   margin: 0;
 }
 
+/* line 99, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_four-squares-layout.scss */
 .grid-1, .grid-2, .grid-3, .grid-4 {
   padding: 32px;
 }
 
 /* Head Yellow */
+/* line 2, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_animations.scss */
 #aj-head-yellow {
   opacity: 0;
   transform: opacity;
@@ -336,6 +420,7 @@ div.grid-about .grid-4 {
   animation: appear 1.5s ease-in-out forwards;
 }
 
+/* line 8, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_animations.scss */
 #glassesR-yellow {
   transform: translateY(35px) scaleY(0.5);
   animation: glassesAnimR 3s .6s forwards;
@@ -343,6 +428,7 @@ div.grid-about .grid-4 {
   /* Safari 4.0 - 8.0 */
 }
 
+/* line 13, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_animations.scss */
 #glassesL-yellow {
   transform: translateY(35px) scaleY(0.5);
   animation: glassesAnim 1.5s .6s forwards;
@@ -350,6 +436,7 @@ div.grid-about .grid-4 {
   /* Safari 4.0 - 8.0 */
 }
 
+/* line 18, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_animations.scss */
 #earringsR-yellow {
   transform: translateY(-5px);
   animation: earringsAnimR 3s .6s forwards;
@@ -357,6 +444,7 @@ div.grid-about .grid-4 {
   /* Safari 4.0 - 8.0 */
 }
 
+/* line 23, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_animations.scss */
 #earringsL-yellow {
   transform: translateY(-5px);
   animation: earringsAnim 1.5s .6s forwards;
@@ -364,6 +452,7 @@ div.grid-about .grid-4 {
   /* Safari 4.0 - 8.0 */
 }
 
+/* line 28, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_animations.scss */
 #face-yellow {
   transform: translateY(50px) scaleY(0.64);
   animation: faceAnim 3s .6s forwards;
@@ -371,6 +460,7 @@ div.grid-about .grid-4 {
   /* Safari 4.0 - 8.0 */
 }
 
+/* line 33, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_animations.scss */
 #bangsR-yellow {
   transform: translateY(55px) scaleY(0.64);
   animation: bangsAnim 3s .6s forwards;
@@ -378,6 +468,7 @@ div.grid-about .grid-4 {
   /* Safari 4.0 - 8.0 */
 }
 
+/* line 38, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_animations.scss */
 #bangsL-yellow {
   transform: translateY(50px) scale(0.8);
   animation: bangsAnim 3s .6s forwards;
@@ -385,6 +476,7 @@ div.grid-about .grid-4 {
   /* Safari 4.0 - 8.0 */
 }
 
+/* line 43, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_animations.scss */
 #hairBack-yellow {
   transform: translate(0px, 20px) scaleY(0.8);
   animation: hairBackAnim 3s .6s forwards;
@@ -393,6 +485,7 @@ div.grid-about .grid-4 {
 }
 
 /* Head Dark */
+/* line 51, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_animations.scss */
 #aj-head-dark {
   opacity: 0;
   transform: opacity;
@@ -400,6 +493,7 @@ div.grid-about .grid-4 {
   animation: appear 1.5s ease-in-out forwards;
 }
 
+/* line 57, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_animations.scss */
 #glassesR-dark {
   transform: translateY(35px) scaleY(0.5);
   animation: glassesAnimR 3s .6s forwards;
@@ -407,6 +501,7 @@ div.grid-about .grid-4 {
   /* Safari 4.0 - 8.0 */
 }
 
+/* line 62, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_animations.scss */
 #glassesL-dark {
   transform: translateY(35px) scaleY(0.5);
   animation: glassesAnim 1.5s .6s forwards;
@@ -414,6 +509,7 @@ div.grid-about .grid-4 {
   /* Safari 4.0 - 8.0 */
 }
 
+/* line 67, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_animations.scss */
 #earringsR-dark {
   transform: translateY(-5px);
   animation: earringsAnimR 3s .6s forwards;
@@ -421,6 +517,7 @@ div.grid-about .grid-4 {
   /* Safari 4.0 - 8.0 */
 }
 
+/* line 72, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_animations.scss */
 #earringsL-dark {
   transform: translateY(-5px);
   animation: earringsAnim 1.5s .6s forwards;
@@ -428,6 +525,7 @@ div.grid-about .grid-4 {
   /* Safari 4.0 - 8.0 */
 }
 
+/* line 77, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_animations.scss */
 #face-dark {
   transform: translateY(50px) scaleY(0.64);
   animation: faceAnim 3s .6s forwards;
@@ -435,6 +533,7 @@ div.grid-about .grid-4 {
   /* Safari 4.0 - 8.0 */
 }
 
+/* line 82, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_animations.scss */
 #bangsR-dark {
   transform: translateY(55px) scaleY(0.64);
   animation: bangsAnim 3s .6s forwards;
@@ -442,6 +541,7 @@ div.grid-about .grid-4 {
   /* Safari 4.0 - 8.0 */
 }
 
+/* line 87, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_animations.scss */
 #bangsL-dark {
   transform: translateY(50px) scale(0.8);
   animation: bangsAnim 3s .6s forwards;
@@ -449,6 +549,7 @@ div.grid-about .grid-4 {
   /* Safari 4.0 - 8.0 */
 }
 
+/* line 92, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_animations.scss */
 #hairBack-dark {
   transform: translate(0px, 20px) scaleY(0.8);
   animation: hairBackAnim 3s .6s forwards;
@@ -457,6 +558,7 @@ div.grid-about .grid-4 {
 }
 
 /* Head Pink */
+/* line 99, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_animations.scss */
 #aj-head-pink {
   opacity: 0;
   transform: opacity;
@@ -464,6 +566,7 @@ div.grid-about .grid-4 {
   animation: appear 1.5s ease-in-out forwards;
 }
 
+/* line 105, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_animations.scss */
 #glassesR-pink {
   transform: translateY(35px) scaleY(0.5);
   animation: glassesAnimR 3s .6s forwards;
@@ -471,6 +574,7 @@ div.grid-about .grid-4 {
   /* Safari 4.0 - 8.0 */
 }
 
+/* line 110, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_animations.scss */
 #glassesL-pink {
   transform: translateY(35px) scaleY(0.5);
   animation: glassesAnim 1.5s .6s forwards;
@@ -478,6 +582,7 @@ div.grid-about .grid-4 {
   /* Safari 4.0 - 8.0 */
 }
 
+/* line 115, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_animations.scss */
 #earringsR-pink {
   transform: translateY(-5px);
   animation: earringsAnimR 3s .6s forwards;
@@ -485,6 +590,7 @@ div.grid-about .grid-4 {
   /* Safari 4.0 - 8.0 */
 }
 
+/* line 120, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_animations.scss */
 #earringsL-pink {
   transform: translateY(-5px);
   animation: earringsAnim 1.5s .6s forwards;
@@ -492,6 +598,7 @@ div.grid-about .grid-4 {
   /* Safari 4.0 - 8.0 */
 }
 
+/* line 125, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_animations.scss */
 #face-pink {
   transform: translateY(50px) scaleY(0.64);
   animation: faceAnim 3s .6s forwards;
@@ -499,6 +606,7 @@ div.grid-about .grid-4 {
   /* Safari 4.0 - 8.0 */
 }
 
+/* line 130, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_animations.scss */
 #bangsR-pink {
   transform: translateY(55px) scaleY(0.64);
   animation: bangsAnim 3s .6s forwards;
@@ -506,6 +614,7 @@ div.grid-about .grid-4 {
   /* Safari 4.0 - 8.0 */
 }
 
+/* line 135, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_animations.scss */
 #bangsL-pink {
   transform: translateY(50px) scale(0.8);
   animation: bangsAnim 3s .6s forwards;
@@ -513,6 +622,7 @@ div.grid-about .grid-4 {
   /* Safari 4.0 - 8.0 */
 }
 
+/* line 140, /Users/annamatillano/Documents/Github/ajmatillano.github.io/sass/_animations.scss */
 #hairBack-pink {
   transform: translate(0px, 20px) scaleY(0.8);
   animation: hairBackAnim 3s .6s forwards;
@@ -722,3 +832,5 @@ div.grid-about .grid-4 {
     transform: scale(1);
   }
 }
+
+/*# sourceMappingURL=../css/app.map */
