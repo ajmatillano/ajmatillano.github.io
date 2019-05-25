@@ -18,6 +18,7 @@
 .off-canvas-content.is-open-left.has-transition-push.has-position-left {
   div.container:first-of-type {
     width: 75vw;
+    transition: 1s;
   }
 }
 .off-canvas-content.project-single.is-open-left.has-transition-push {

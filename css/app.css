@@ -74,10 +74,6 @@ a:hover {
   color: #CF7576;
 }
 
-.container {
-  transition: 1s;
-}
-
 #sidemenu {
   display: block;
   background-color: #FFFFFF;
@@ -227,7 +223,7 @@ div.grid-about .grid-3 a {
 
 div.grid-about .grid-4 {
   background: no-repeat center;
-  background-size: auto 100%;
+  background-size: cover;
   background-image: url("../img/covers/ajPhoto.png");
 }
 
@@ -285,6 +281,25 @@ div.project-single img + p.text_small, div.project-single p.caption {
   opacity: .80;
   margin-bottom: 64px;
   margin-top: 8px;
+}
+
+#loader {
+  opacity: 1;
+  display: block;
+  position: absolute;
+  z-index: 99999;
+  text-align: center;
+  background: #F9FAF4;
+  width: 100%;
+  height: 100%;
+  transition: 1s;
+}
+
+#loader svg {
+  display: block;
+  top: 50%;
+  left: 45%;
+  position: absolute;
 }
 
 .container {
@@ -888,6 +903,7 @@ div.project-single img + p.text_small, div.project-single p.caption {
 
 .off-canvas-content.is-open-left.has-transition-push.has-position-left div.container:first-of-type {
   width: 75vw;
+  transition: 1s;
 }
 
 .off-canvas-content.project-single.is-open-left.has-transition-push div:first-of-type {
