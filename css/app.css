@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Merriweather:400|Poppins:400");
 .border-thin-dark, #sidemenu {
-  border: 1px solid rgba(75, 100, 100, 0.25);
+  border: 1px solid rgba(75, 100, 100, 0.15);
 }
 
 * {
@@ -10,7 +10,7 @@
 }
 
 body {
-  background-color: #F9FAF4;
+  background-color: #FFFFFF;
   color: #0C3448;
 }
 
@@ -37,42 +37,46 @@ p {
 h1, h2, h3, h4, h5 {
   margin: 2.75rem 0 1rem;
   font-family: 'Merriweather', serif;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 1.15;
 }
 
 h1 {
   margin-top: 0;
-  font-size: 4.209em;
+  font-size: 2.488em;
 }
 
 h2 {
-  font-size: 3.157em;
+  font-size: 2.074em;
 }
 
 h3 {
-  font-size: 2.369em;
+  font-size: 1.728em;
 }
 
 h4 {
-  font-size: 1.777em;
+  font-size: 1.44em;
 }
 
 h5 {
-  font-size: 1.333em;
+  font-size: 1.2em;
 }
 
 small, .text_small {
-  font-size: 0.75em;
+  font-size: 0.833em;
 }
 
 a {
+  color: #EE8F90;
+}
+
+a:hover {
   color: #CF7576;
 }
 
 #sidemenu {
   display: block;
-  background-color: #F9FAF4;
+  background-color: #FFFFFF;
   border-top: none;
   border-left: none;
   border-bottom: none;
@@ -107,27 +111,33 @@ a {
   font-family: 'Merriweather', serif;
 }
 
+/* Menu Button */
 #icon-menu {
   float: left;
   position: fixed;
   margin: 16px;
+  z-index: 999;
 }
 
-.grid-1 .intro h2 {
+#icon-menu:hover #Rectangle {
+  fill: #F1F1F0;
+}
+
+.grid-1 .intro h1 {
   margin-top: 0;
 }
 
-.grid-1 .intro h5 {
+.grid-1 .intro p {
   margin-top: 0px;
   font-weight: 400;
-  letter-spacing: 8px;
+  letter-spacing: 8.5px;
 }
 
 .grid-1 a {
   display: block;
-  margin-top: 60px;
+  margin-top: 64px;
   font-family: 'Merriweather', serif;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 div.grid-works .grid-2, div.grid-works .grid-3, div.grid-works .grid-4 {
@@ -137,10 +147,11 @@ div.grid-works .grid-2, div.grid-works .grid-3, div.grid-works .grid-4 {
 }
 
 div.grid-works .grid-2 a, div.grid-works .grid-3 a, div.grid-works .grid-4 a {
+  width: 100%;
+  height: 100%;
+  margin: 0;
   display: block;
-  margin-top: 60px;
-  font-family: 'Merriweather', serif;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 div.grid-works .grid-2:hover, div.grid-works .grid-3:hover, div.grid-works .grid-4:hover {
@@ -183,15 +194,15 @@ div.grid-works .grid-info div p {
   margin-top: -8px;
 }
 
-div.grid-works .grid-info div h5 {
+div.grid-works .grid-info div h3 {
   color: #F5D76A;
 }
 
 div.grid-about a {
   display: block;
-  margin-top: 60px;
+  margin-top: 64px;
   font-family: 'Merriweather', serif;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 div.grid-about .grid-2 a {
@@ -212,6 +223,62 @@ div.grid-about .grid-4 {
   background: no-repeat center;
   background-size: auto 100%;
   background-image: url("../img/covers/ajPhoto.png");
+}
+
+div.project-single {
+  text-align: center;
+}
+
+div.project-single div.wrapper {
+  display: inline-block;
+  margin: auto;
+  margin-top: 64px;
+  max-width: 900px;
+  text-align: left;
+}
+
+div.project-single div.wrapper h1:first-of-type {
+  text-align: center;
+}
+
+div.project-single div.wrapper p:first-of-type {
+  text-align: center;
+}
+
+div.project-single div.wrapper img:first-of-type {
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+div.project-single div.wrapper h1, div.project-single div.wrapper h2, div.project-single div.wrapper h3, div.project-single div.wrapper h4 {
+  margin-top: 64px;
+  margin-bottom: 32px;
+}
+
+div.project-single div.wrapper h5 {
+  margin-bottom: 16px;
+}
+
+div.project-single div.wrapper img {
+  display: block;
+  text-align: center;
+  margin: auto;
+}
+
+div.project-single div.separator {
+  text-align: center;
+  margin: 64px;
+}
+
+div.project-single ol {
+  list-style: upper-roman;
+}
+
+div.project-single img + p.text_small, div.project-single p.caption {
+  text-align: center;
+  opacity: .80;
+  margin-bottom: 64px;
+  margin-top: 8px;
 }
 
 .container {
@@ -720,5 +787,95 @@ div.grid-about .grid-4 {
   100% {
     opacity: 1;
     transform: scale(1);
+  }
+}
+
+/* Menu to Close */
+#icon-menu.menuAnim #bot {
+  transform: translateY(-2px);
+  transform-origin: 25px 23px;
+  animation: botAnim 1s 0s forwards;
+  -webkit-animation-fill-mode: forwards;
+  /* Safari 4.0 - 8.0 */
+}
+
+#icon-menu.menuAnim #top {
+  transform: translateY(2px);
+  transform-origin: 26px 18px;
+  animation: topAnim 1s 0s forwards;
+  -webkit-animation-fill-mode: forwards;
+  /* Safari 4.0 - 8.0 */
+}
+
+#icon-menu.menuAnim #mid {
+  display: none;
+}
+
+#icon-menu.menuAnimReverse #bot {
+  transform: translateY(2px);
+  transform-origin: 25px 23px;
+  animation: botAnimReverse 1s 0s forwards;
+  -webkit-animation-fill-mode: forwards;
+  /* Safari 4.0 - 8.0 */
+}
+
+#icon-menu.menuAnimReverse #top {
+  transform: translateY(-2px);
+  transform-origin: 26px 18px;
+  animation: topAnimReverse 1s 0s forwards;
+  -webkit-animation-fill-mode: forwards;
+  /* Safari 4.0 - 8.0 */
+}
+
+#icon-menu.menuAnimReverse #mid {
+  display: block;
+}
+
+/* Menu to Close Animation */
+@keyframes botAnim {
+  0% {
+    transform: translateY(-2px);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: rotateZ(45deg);
+  }
+}
+
+@keyframes topAnim {
+  0% {
+    transform: translateY(2px);
+  }
+  50% {
+    transform: translateY(5px);
+  }
+  100% {
+    transform: rotateZ(-45deg);
+  }
+}
+
+@keyframes botAnimReverse {
+  0% {
+    transform: translateY(-2px);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: rotateZ(0deg);
+  }
+}
+
+@keyframes topAnimReverse {
+  0% {
+    transform: translateY(2px);
+  }
+  50% {
+    transform: translateY(5px);
+  }
+  100% {
+    transform: rotateZ(0deg);
   }
 }

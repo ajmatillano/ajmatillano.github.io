@@ -43,7 +43,6 @@
     <meta property="og:image" content="https://www.ajmatillano.com/img/ajmatillano-thumb.jpg" />
     <meta property="og:description" content="AJ has been designing delightful user experiences and interfaces in the digital world since 2013." />
 
-    <link href="css/style.css" type="text/css" rel="stylesheet" />
     <link rel="icon" type="image/png" href="img/favicon.png">
     <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
 
@@ -61,15 +60,15 @@
 
     <!-- Sidemenu -->
       <a href="#sidemenu" data-toggle="sidemenu">
-        <svg style="z-index: 999;" id="icon-menu" width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-            <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                <g id="Home" transform="translate(-20.000000, -20.000000)">
-                    <g id="button/menu" transform="translate(20.000000, 20.000000)">
-                        <g>
-                            <rect id="Rectangle" fill="#F9FAF4" fill-rule="nonzero" x="0" y="0" width="40" height="40"></rect>
-                            <g id="icon/menu-dark" transform="translate(8.000000, 8.000000)" fill="#4B6464">
-                                <path d="M2,18 L2,16 L22,16 L22,18 L2,18 Z M2,13 L2,11 L22,11 L22,13 L2,13 Z M2,6 L22,6 L22,8 L2,8 L2,6 Z"></path>
-                            </g>
+        <svg id="icon-menu"  width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="button/menu">
+                    <g>
+                        <rect id="Rectangle" fill="#F9FAF4" fill-rule="nonzero" x="0" y="0" width="40" height="40"></rect>
+                        <g id="icon/menu-dark" transform="translate(8.000000, 8.000000)" fill="#4B6464">
+                            <polygon id="bot" points="2 18 2 16 22 16 22 18"></polygon>
+                            <polygon id="mid" points="2 13 2 11 22 11 22 13"></polygon>
+                            <polygon id="top" points="2 6 22 6 22 8 2 8"></polygon>
                         </g>
                     </g>
                 </g>
@@ -96,7 +95,7 @@
           <div class="container grid-about">
             <div class="grid-1">
               <div class="intro">
-                <h2>about</h2>
+                <h1>about</h1>
               </div>
             </div>
 
@@ -202,8 +201,10 @@
         <div class="js-off-canvas-exit"></div>
       </div>
     </div>
-    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
     <script>
           $(document).foundation();
     </script>

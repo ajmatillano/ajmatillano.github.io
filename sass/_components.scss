@@ -2,7 +2,7 @@
 
 #sidemenu {
   display: block;
-  background-color: $color-cream;
+  background-color: $color-white;
   @extend .border-thin-dark;
   border-top: none;
   border-left: none;
@@ -32,29 +32,39 @@
     }
   }
 }
+
+/* Menu Button */
+
 #icon-menu {
   float: left;
   position: fixed;
   margin: 16px;
+  z-index: 999;
+  &:hover {
+    #Rectangle {
+      fill: $color-creamDarker;
+    }
+  }
 }
+
 
 // Square Grids
 .grid-1 {
   .intro {
-    h2 {
+    h1 {
       margin-top: 0;
     }
-    h5 {
+    p {
       margin-top: 0px;
       font-weight: 400;
-      letter-spacing: 8px;
+      letter-spacing: 8.5px;
     }
   }
     a {
       display: block;
-      margin-top: 60px;
+      margin-top: 64px;
       font-family: 'Merriweather', serif;
-      font-weight: 700;
+      font-weight: 400;
     }
 }
 
@@ -63,10 +73,12 @@
 div.grid-works {
   .grid-2, .grid-3, .grid-4 {
     a {
+      width: 100%;
+      height: 100%;
+      margin: 0;
       display: block;
-      margin-top: 60px;
-      font-family: 'Merriweather', serif;
-      font-weight: 700;
+    //  font-family: 'Merriweather', serif;
+      font-weight: 400;
     }
     padding: 0;
     background: no-repeat center;
@@ -102,7 +114,7 @@ div.grid-works {
         color: $color-yellow;
         margin-top: -8px;
       }
-      h5 {
+      h3 {
         color: $color-yellow;
       }
     }
@@ -113,9 +125,9 @@ div.grid-works {
 div.grid-about {
   a {
     display: block;
-    margin-top: 60px;
+    margin-top: 64px;
     font-family: 'Merriweather', serif;
-    font-weight: 700;
+    font-weight: 400;
   }
   .grid-2 {
     a {
@@ -136,5 +148,53 @@ div.grid-about {
     background: no-repeat center;
     background-size: auto 100%;
     background-image: url('../img/covers/ajPhoto.png');
+  }
+}
+
+// Project Single
+
+div.project-single {
+  text-align: center;
+  div.wrapper {
+    display: inline-block;
+    margin: auto;
+    margin-top: 64px;
+    max-width: 900px;
+    text-align: left;
+    h1:first-of-type {
+      text-align: center;
+    }
+    p:first-of-type {
+      text-align: center;
+    }
+    img:first-of-type {
+      margin-top: 64px;
+      margin-bottom: 64px;
+    }
+    h1, h2, h3, h4{
+      margin-top: 64px;
+      margin-bottom: 32px;
+    }
+    h5 {
+      margin-bottom: 16px;
+    }
+    img {
+      display: block;
+      text-align: center;
+      margin: auto;
+    }
+  }
+  div.separator {
+    text-align: center;
+    margin: 64px;
+  }
+  ol {
+    list-style: upper-roman;
+  }
+  img + p.text_small,  p.caption  {
+    text-align: center;
+    opacity: .80;
+    margin-bottom: 64px;
+    margin-top: 8px;
   }
 }

@@ -11,3 +11,12 @@
     #{$vendor}#{$name}: #{$value};
   }
 }
+
+
+// Width adjusts when side-menu is opened
+
+.off-canvas-content.is-open-left.has-transition-push.has-position-left {
+  .container {
+    width: 75vw;
+  }
+}

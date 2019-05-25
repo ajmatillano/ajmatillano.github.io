@@ -1,16 +1,18 @@
 // Colors
 
 $color-cream: #F9FAF4;
+$color-creamDarker: #F1F1F0;
 $color-pink: #EE8F90;
 $color-pinkDarker: #CF7576;
 $color-blue: #0C3448;
 $color-yellow: #F5D76A;
 $color-gray: #4B6464;
+$color-white: #FFFFFF;
 
 // Styles
 
 .border-thin-dark {
-  border: 1px solid rgba(75,100,100,.25);
+  border: 1px solid rgba(75,100,100,.15);
 }
 
 // Main
@@ -20,7 +22,7 @@ $color-gray: #4B6464;
   transition-delay: 0s;
 }
 body {
-  background-color: $color-cream;
+  background-color: $color-white;
   color: $color-blue;
 }
 a:hover {
@@ -51,25 +53,30 @@ p {
 h1, h2, h3, h4, h5 {
   margin: 2.75rem 0 1rem;
   font-family: 'Merriweather', serif;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 1.15;
 }
 
 h1 {
   margin-top: 0;
-  font-size: 4.209em;
+  font-size: 2.488em;
 }
 
-h2 {font-size: 3.157em;}
+h2 {font-size: 2.074em;}
 
-h3 {font-size: 2.369em;}
+h3 {font-size: 1.728em;}
 
-h4 {font-size: 1.777em;}
+h4 {font-size: 1.44em;}
 
-h5 {font-size: 1.333em;}
+h5 {font-size: 1.2em;}
 
-small, .text_small {font-size: 0.75em;}
+small, .text_small {
+  font-size: 0.833em;
+}
 
 a {
-  color: $color-pinkDarker;
+  color: $color-pink;
+  &:hover {
+    color: $color-pinkDarker;
+  }
 }
