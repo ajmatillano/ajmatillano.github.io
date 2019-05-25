@@ -74,6 +74,10 @@ a:hover {
   color: #CF7576;
 }
 
+.container {
+  transition: 1s;
+}
+
 #sidemenu {
   display: block;
   background-color: #FFFFFF;
@@ -143,7 +147,6 @@ a:hover {
 div.grid-works .grid-2, div.grid-works .grid-3, div.grid-works .grid-4 {
   padding: 0;
   background: no-repeat center;
-  background-size: auto 100%;
 }
 
 div.grid-works .grid-2 a, div.grid-works .grid-3 a, div.grid-works .grid-4 a {
@@ -164,14 +167,17 @@ div.grid-works .grid-2:hover .grid-info, div.grid-works .grid-3:hover .grid-info
 }
 
 div.grid-works .grid-2 {
+  background-size: cover;
   background-image: url("../img/covers/svgTool.png");
 }
 
 div.grid-works .grid-3 {
+  background-size: cover;
   background-image: url("../img/covers/ebMobile.png");
 }
 
 div.grid-works .grid-4 {
+  background-size: cover;
   background-image: url("../img/covers/promotr.png");
 }
 
@@ -878,4 +884,8 @@ div.project-single img + p.text_small, div.project-single p.caption {
   100% {
     transform: rotateZ(0deg);
   }
+}
+
+.off-canvas-content.is-open-left.has-transition-push.has-position-left div.container {
+  width: 75vw;
 }

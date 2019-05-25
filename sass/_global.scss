@@ -80,3 +80,9 @@ a {
     color: $color-pinkDarker;
   }
 }
+
+// Container's smooth transition globally
+
+.container {
+  transition: 1s;
+}

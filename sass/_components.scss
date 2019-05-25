@@ -82,7 +82,6 @@ div.grid-works {
     }
     padding: 0;
     background: no-repeat center;
-    background-size: auto 100%;
   }
   .grid-2:hover, .grid-3:hover, .grid-4:hover {
     cursor: pointer;
@@ -92,12 +91,15 @@ div.grid-works {
     }
   }
   .grid-2 {
+    background-size: cover;
     background-image: url('../img/covers/svgTool.png')
   }
   .grid-3 {
+    background-size: cover;
     background-image: url('../img/covers/ebMobile.png')
   }
   .grid-4 {
+    background-size: cover;
     background-image: url('../img/covers/promotr.png')
   }
   .grid-info {
