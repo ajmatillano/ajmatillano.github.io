@@ -13,10 +13,18 @@
 }
 
 
-// Width adjusts when side-menu is opened
+// Width adjusts relative to viewport when side-menu is opened
 
 .off-canvas-content.is-open-left.has-transition-push.has-position-left {
-  div.container {
+  div.container:first-of-type {
     width: 75vw;
+  }
+}
+.off-canvas-content.project-single.is-open-left.has-transition-push {
+  div:first-of-type {
+    transition: 1s;
+    transition-delay: .1s;
+    width: 65vw;
+    margin: 32px;
   }
 }
