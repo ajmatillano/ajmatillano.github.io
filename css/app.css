@@ -103,6 +103,11 @@ a:hover {
   line-height: 2.5;
   list-style-type: none;
   font-family: 'Merriweather', serif;
+  font-size: .9rem;
+}
+
+#sidemenu h5, #sidemenu a, #sidemenu p {
+  text-transform: lowercase;
 }
 
 /* Menu Button */
@@ -115,6 +120,10 @@ a:hover {
 
 #icon-menu:hover #Rectangle {
   fill: #F1F1F0;
+}
+
+.grid-1 * {
+  text-transform: lowercase;
 }
 
 .grid-1 .intro h1 {
@@ -132,6 +141,10 @@ a:hover {
   margin-top: 64px;
   font-family: 'Merriweather', serif;
   font-weight: 400;
+}
+
+div.grid-works * {
+  text-transform: lowercase;
 }
 
 div.grid-works .grid-2, div.grid-works .grid-3, div.grid-works .grid-4 {
@@ -195,11 +208,19 @@ div.grid-works .grid-info div h3 {
   color: #F5D76A;
 }
 
+div.grid-about * {
+  text-transform: lowercase;
+}
+
 div.grid-about a {
   display: block;
   margin-top: 64px;
   font-family: 'Merriweather', serif;
   font-weight: 400;
+}
+
+div.grid-about .grid-2 p {
+  text-transform: none;
 }
 
 div.grid-about .grid-2 a {
@@ -262,6 +283,12 @@ div.project-single div.wrapper img {
   margin: auto;
 }
 
+div.project-single div.wrapper p:last-of-type {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
 div.project-single div.separator {
   text-align: center;
   margin: 64px;
@@ -276,6 +303,9 @@ div.project-single img + p.text_small, div.project-single p.caption {
   opacity: .80;
   margin-bottom: 64px;
   margin-top: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 70%;
 }
 
 #loader {
@@ -809,16 +839,16 @@ div.project-single img + p.text_small, div.project-single p.caption {
 /* Menu to Close */
 #icon-menu.menuAnim #bot {
   transform: translateY(-2px);
-  transform-origin: 25px 23px;
-  animation: botAnim 1s 0s forwards;
+  transform-origin: 25.5px 23.5px;
+  animation: botAnim .5s 0s forwards;
   -webkit-animation-fill-mode: forwards;
   /* Safari 4.0 - 8.0 */
 }
 
 #icon-menu.menuAnim #top {
   transform: translateY(2px);
-  transform-origin: 26px 18px;
-  animation: topAnim 1s 0s forwards;
+  transform-origin: 26.5px 17.5px;
+  animation: topAnim .5s 0s forwards;
   -webkit-animation-fill-mode: forwards;
   /* Safari 4.0 - 8.0 */
 }
@@ -830,7 +860,7 @@ div.project-single img + p.text_small, div.project-single p.caption {
 #icon-menu.menuAnimReverse #bot {
   transform: translateY(2px);
   transform-origin: 25px 23px;
-  animation: botAnimReverse 1s 0s forwards;
+  animation: botAnimReverse .5s 0s forwards;
   -webkit-animation-fill-mode: forwards;
   /* Safari 4.0 - 8.0 */
 }
@@ -838,7 +868,7 @@ div.project-single img + p.text_small, div.project-single p.caption {
 #icon-menu.menuAnimReverse #top {
   transform: translateY(-2px);
   transform-origin: 26px 18px;
-  animation: topAnimReverse 1s 0s forwards;
+  animation: topAnimReverse .5s 0s forwards;
   -webkit-animation-fill-mode: forwards;
   /* Safari 4.0 - 8.0 */
 }

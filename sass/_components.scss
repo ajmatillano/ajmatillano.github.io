@@ -29,7 +29,11 @@
       line-height: 2.5;
       list-style-type: none;
       font-family: 'Merriweather', serif;
+      font-size: .9rem;
     }
+  }
+  h5, a, p {
+    text-transform: lowercase;
   }
 }
 
@@ -50,6 +54,9 @@
 
 // Square Grids
 .grid-1 {
+  * {
+    text-transform: lowercase;
+  }
   .intro {
     h1 {
       margin-top: 0;
@@ -71,6 +78,9 @@
 // Works
 
 div.grid-works {
+  * {
+    text-transform: lowercase;
+  }
   .grid-2, .grid-3, .grid-4 {
     a {
       width: 100%;
@@ -126,6 +136,9 @@ div.grid-works {
 
 // About
 div.grid-about {
+  * {
+    text-transform: lowercase;
+  }
   a {
     display: block;
     margin-top: 64px;
@@ -133,6 +146,9 @@ div.grid-about {
     font-weight: 400;
   }
   .grid-2 {
+    p {
+      text-transform: none;
+    }
     a {
       color: $color-blue;
     }
@@ -186,6 +202,11 @@ div.project-single {
       text-align: center;
       margin: auto;
     }
+    p:last-of-type {
+      margin-top: 80px;
+      margin-bottom: 80px;
+      text-align: center;
+    }
   }
   div.separator {
     text-align: center;
@@ -199,6 +220,9 @@ div.project-single {
     opacity: .80;
     margin-bottom: 64px;
     margin-top: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 70%;
   }
 }
 

@@ -350,14 +350,14 @@
 #icon-menu.menuAnim {
   #bot {
     transform: translateY(-2px);
-    transform-origin: 25px 23px;
-    animation: botAnim 1s 0s forwards;
+    transform-origin: 25.5px 23.5px;
+    animation: botAnim .5s 0s forwards;
     -webkit-animation-fill-mode: forwards;/* Safari 4.0 - 8.0 */
   }
   #top {
     transform: translateY(2px);
-    transform-origin: 26px 18px;
-    animation: topAnim 1s 0s forwards;
+    transform-origin: 26.5px 17.5px;
+    animation: topAnim .5s 0s forwards;
     -webkit-animation-fill-mode: forwards;/* Safari 4.0 - 8.0 */
   }
   #mid {
@@ -369,13 +369,13 @@
   #bot {
     transform: translateY(2px);
     transform-origin: 25px 23px;
-    animation: botAnimReverse 1s 0s forwards;
+    animation: botAnimReverse .5s 0s forwards;
     -webkit-animation-fill-mode: forwards;/* Safari 4.0 - 8.0 */
   }
   #top {
     transform: translateY(-2px);
     transform-origin: 26px 18px;
-    animation: topAnimReverse 1s 0s forwards;
+    animation: topAnimReverse .5s 0s forwards;
     -webkit-animation-fill-mode: forwards;/* Safari 4.0 - 8.0 */
   }
   #mid {
