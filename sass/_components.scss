@@ -93,7 +93,7 @@ div.grid-works {
     padding: 0;
     background: no-repeat center;
   }
-  .grid-2:hover, .grid-3:hover, .grid-4:hover {
+  .grid-2:hover, .grid-3:hover, .grid-4:hover, .grid-5:hover {
     cursor: pointer;
     .grid-info {
       transition: .5s;
@@ -101,16 +101,24 @@ div.grid-works {
     }
   }
   .grid-2 {
+    background: no-repeat center;
     background-size: cover;
     background-image: url('../img/covers/svgTool.png')
   }
   .grid-3 {
+    background: no-repeat center;
     background-size: cover;
     background-image: url('../img/covers/ebMobile.png')
   }
   .grid-4 {
+    background: no-repeat center;
     background-size: cover;
     background-image: url('../img/covers/lendr.png')
+  }
+  .grid-5 {
+    background: no-repeat center;
+    background-size: cover;
+    background-image: url('../img/covers/acasys.png');
   }
   .grid-info {
     opacity: 0;
