@@ -100,7 +100,7 @@ div.grid-works {
   }
   .grid-4 {
     background-size: cover;
-    background-image: url('../img/covers/promotr.png')
+    background-image: url('../img/covers/lendr.png')
   }
   .grid-info {
     opacity: 0;
@@ -117,6 +117,7 @@ div.grid-works {
         margin-top: -8px;
       }
       h3 {
+        font-weight: 700;
         color: $color-yellow;
       }
     }
@@ -206,7 +207,7 @@ div.project-single {
 
 #loader {
   opacity: 1;
-  display: block;
+  display: none;
   position: absolute;
   z-index: 99999;
   text-align: center;

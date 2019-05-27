@@ -16,11 +16,6 @@ $color-white: #FFFFFF;
 }
 
 // Main
-* {
-  transition-duration: .20s;
-  transition-timing-function: linear;
-  transition-delay: 0s;
-}
 body {
   background-color: $color-white;
   color: $color-blue;

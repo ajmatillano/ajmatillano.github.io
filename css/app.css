@@ -3,12 +3,6 @@
   border: 1px solid rgba(75, 100, 100, 0.15);
 }
 
-* {
-  transition-duration: .20s;
-  transition-timing-function: linear;
-  transition-delay: 0s;
-}
-
 body {
   background-color: #FFFFFF;
   color: #0C3448;
@@ -174,7 +168,7 @@ div.grid-works .grid-3 {
 
 div.grid-works .grid-4 {
   background-size: cover;
-  background-image: url("../img/covers/promotr.png");
+  background-image: url("../img/covers/lendr.png");
 }
 
 div.grid-works .grid-info {
@@ -197,6 +191,7 @@ div.grid-works .grid-info div p {
 }
 
 div.grid-works .grid-info div h3 {
+  font-weight: 700;
   color: #F5D76A;
 }
 
@@ -285,7 +280,7 @@ div.project-single img + p.text_small, div.project-single p.caption {
 
 #loader {
   opacity: 1;
-  display: block;
+  display: none;
   position: absolute;
   z-index: 99999;
   text-align: center;
@@ -901,14 +896,18 @@ div.project-single img + p.text_small, div.project-single p.caption {
   }
 }
 
-.off-canvas-content.is-open-left.has-transition-push.has-position-left div.container:first-of-type {
-  width: 75vw;
-  transition: 1s;
+/*.off-canvas-content.is-open-left.has-transition-push.has-position-left {
+  div.container:first-of-type {
+    width: 75vw;
+    transition: 1s;
+  }
+}*/
+/*.off-canvas-content.project-single.is-open-left.has-transition-push {
+  div:first-of-type {
+    transition: 1s;
+    transition-delay: .1s;
+    width: 65vw;
+    margin: 32px;
+  }
 }
-
-.off-canvas-content.project-single.is-open-left.has-transition-push div:first-of-type {
-  transition: 1s;
-  transition-delay: .1s;
-  width: 65vw;
-  margin: 32px;
-}
+*/
