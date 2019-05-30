@@ -163,17 +163,17 @@ div.grid-about {
       color: $color-blue;
     }
   }
-  .grid-3 {
+  .grid-4 {
     p {
-      color: $color-yellow;
+      color: $color-pink;
     }
     a {
       margin-top: 0px;
-      padding: 16px;
+      padding: 12px;
       display: inline-block;
     }
   }
-  .grid-4 {
+  .grid-3 {
     background: no-repeat center;
     background-size: cover;
     background-image: url('../img/covers/ajPhoto.png');
@@ -187,7 +187,6 @@ div.project-single {
   div.wrapper {
     display: inline-block;
     margin: auto;
-    margin-top: 64px;
     max-width: 900px;
     text-align: left;
     h1:first-of-type {
@@ -263,7 +262,7 @@ div.project-single {
   width: 100vw;
   display: block;
   position: fixed;
-  z-index: 999;
+  z-index: 100;
   background: #ffffff;
   height: 72px;
   padding: 16px;
@@ -271,7 +270,7 @@ div.project-single {
 }
 
 .top-nav-bar {
-  display: inline-block;
+  margin-left: 70px;
   position: fixed;
   z-index: 9999;
   a {

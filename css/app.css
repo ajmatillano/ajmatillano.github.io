@@ -238,17 +238,17 @@ div.grid-about .grid-2 a {
   color: #0C3448;
 }
 
-div.grid-about .grid-3 p {
-  color: #F5D76A;
+div.grid-about .grid-4 p {
+  color: #EE8F90;
 }
 
-div.grid-about .grid-3 a {
+div.grid-about .grid-4 a {
   margin-top: 0px;
-  padding: 16px;
+  padding: 12px;
   display: inline-block;
 }
 
-div.grid-about .grid-4 {
+div.grid-about .grid-3 {
   background: no-repeat center;
   background-size: cover;
   background-image: url("../img/covers/ajPhoto.png");
@@ -261,7 +261,6 @@ div.project-single {
 div.project-single div.wrapper {
   display: inline-block;
   margin: auto;
-  margin-top: 64px;
   max-width: 900px;
   text-align: left;
 }
@@ -342,7 +341,7 @@ div.project-single img + p.text_small, div.project-single p.caption {
   width: 100vw;
   display: block;
   position: fixed;
-  z-index: 999;
+  z-index: 100;
   background: #ffffff;
   height: 72px;
   padding: 16px;
@@ -350,7 +349,7 @@ div.project-single img + p.text_small, div.project-single p.caption {
 }
 
 .top-nav-bar {
-  display: inline-block;
+  margin-left: 70px;
   position: fixed;
   z-index: 9999;
 }
