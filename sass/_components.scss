@@ -42,8 +42,9 @@
 #icon-menu {
   float: left;
   position: fixed;
+  left: 0px;
   margin: 16px;
-  z-index: 999;
+  z-index: 9999999;
   &:hover {
     #Rectangle {
       fill: $color-creamDarker;
@@ -65,6 +66,7 @@
       margin-top: 0px;
       font-weight: 400;
       letter-spacing: 8.5px;
+      text-transform: none;
     }
   }
     a {
@@ -252,5 +254,36 @@ div.project-single {
     top: 50%;
     left: 45%;
     position: absolute;
+  }
+}
+
+// top toolbar
+
+#topNavbar {
+  width: 100vw;
+  display: block;
+  position: fixed;
+  z-index: 999;
+  background: #ffffff;
+  height: 72px;
+  padding: 16px;
+  border-bottom: 1px solid $color-creamDarker;
+}
+
+.top-nav-bar {
+  display: inline-block;
+  position: fixed;
+  z-index: 9999;
+  a {
+    svg {
+      margin-top: 18px;
+      display: inline-block;
+    }
+    h5 {
+      float: right;
+      margin-top: 24px;
+      margin-left: 8px;
+      color: $color-blue;
+    }
   }
 }
