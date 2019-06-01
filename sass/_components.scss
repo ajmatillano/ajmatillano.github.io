@@ -82,8 +82,13 @@ div.grid-works {
       height: 100%;
       margin: 0;
       display: block;
-    //  font-family: 'Merriweather', serif;
       font-weight: 400;
+    }
+    p {
+      opacity: .8;
+    }
+    p:last-of-type {
+      margin-top: 20px;
     }
     padding: 0;
     background: no-repeat center;
@@ -151,7 +156,10 @@ div.grid-about {
       text-transform: none;
     }
     a {
-      color: $color-blue;
+      color: $color-gray;
+      &:hover {
+        color: $color-blue;
+      }
     }
   }
   .grid-4 {
@@ -168,6 +176,26 @@ div.grid-about {
     background: no-repeat center;
     background-size: cover;
     background-image: url('../img/covers/ajPhoto.png');
+  }
+  a:hover {
+    @mixin darken-hover {
+      transition: .5s;
+      fill: $color-pinkDarker;
+    }
+    svg {
+      g#linkedin {
+        @include darken-hover;
+      }
+      g#dribble {
+        @include darken-hover;
+      }
+      g#twitter {
+        @include darken-hover;
+      }
+      g#codepen {
+        @include darken-hover;
+      }
+    }
   }
 }
 

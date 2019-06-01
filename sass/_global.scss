@@ -72,8 +72,7 @@ small, .text_small {
 a {
   color: $color-pink;
   &:hover {
+    transition: .5s;
     color: $color-pinkDarker;
   }
 }
-
-// Container's smooth transition globally
