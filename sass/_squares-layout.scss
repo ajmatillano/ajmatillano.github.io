@@ -5,14 +5,22 @@
   width: 100vw;
   height: 100vh;
   @media screen and (max-width: 60em) {
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+  }
+}
+
+.container.grid-works {
+  grid-template-rows: 48% 48% 48% !important;
+  @media screen and (max-width: 60em) {
+    grid-template-rows: 20% 40% 40% 40% 40% 40% !important;
   }
 }
 
 // .grid-1,
 // .grid-2,
 // .grid-3,
-// .grid-4 {
+// .grid-4
+// .grid-5 {
 //   grid-template-rows: repeat(6, 1fr);
 //   grid-template-columns: repeat(6, 1fr);
 // }
@@ -115,6 +123,6 @@
   margin: 0;
 }
 
-.grid-1, .grid-2, .grid-3, .grid-4 {
+.grid-1, .grid-2, .grid-3, .grid-4, .grid-5 {
   padding: 32px;
 }
