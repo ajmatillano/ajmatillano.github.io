@@ -49,7 +49,6 @@
   }
 }
 
-
 // Square Grids
 .grid-1 {
   .intro {
@@ -62,13 +61,24 @@
       letter-spacing: 8.5px;
       text-transform: none;
     }
-  }
-    a {
-      display: block;
-      margin-top: 64px;
-      font-family: 'Merriweather', serif;
-      font-weight: 400;
+    @media screen and (max-width: 60em) {
+      padding-top: 20px;
     }
+  }
+  a {
+    display: block;
+    margin-top: 64px;
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+  }
+}
+
+// home
+
+div.grid-home {
+  #logo {
+    display: none;
+  }
 }
 
 // Works
