@@ -279,9 +279,9 @@ div.project-single {
 
 #loader {
   opacity: 1;
-  display: none;
+  display: block;
   position: absolute;
-  z-index: 99999;
+  z-index: 99999999999;
   text-align: center;
   background: $color-cream;
   width: 100%;
