@@ -289,10 +289,9 @@
     <script src="js/app.js"></script>
     <script>
           $(document).foundation();
-          document.addEventListener("DOMContentLoaded", function loader() {
-          document.getElementById('loader').style.opacity = "0";
-          document.getElementById('loader').style.display = "none";
-        });
+          window.onload = function() {
+            document.getElementById("loader").style.display = "none";
+          }
     </script>
   </body>
 </html>
