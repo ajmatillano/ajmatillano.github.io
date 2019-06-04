@@ -15,6 +15,8 @@
   grid-template-rows: 48% 48% 48% !important;
   @media screen and (max-width: 60em) {
     grid-template-rows: 40% 40% 40% 40% 40% 40% !important;
+    overflow-y: visible !important;
+    overflow-x: hidden !important;
   }
 }
 
