@@ -6,7 +6,7 @@
   height: 100vh;
   @media screen and (max-width: 60em) {
     grid-template-rows: 50% 50% 50% 50%;
-    overflow-y: visible !important;
+    overflow-y: auto !important;
     overflow-x: hidden !important;
   }
 }
@@ -15,7 +15,7 @@
   grid-template-rows: 48% 48% 48% !important;
   @media screen and (max-width: 60em) {
     grid-template-rows: 40% 40% 40% 40% 40% 40% !important;
-    overflow-y: visible !important;
+    overflow-y: auto !important;
     overflow-x: hidden !important;
   }
 }
