@@ -180,11 +180,12 @@ div.grid-about {
   .grid-2 {
     p {
       text-transform: none;
+      color: $color-blue;
     }
     a {
-      color: $color-gray;
+      color: $color-blue;
       &:hover {
-        color: $color-blue;
+        color: #000000;
       }
     }
   }
