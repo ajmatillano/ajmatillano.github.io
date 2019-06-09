@@ -34,6 +34,12 @@
   }
 }
 
+.position-left {
+    @media screen and (max-width: 60em) {
+      width: 100% !important;
+    }
+}
+
 /* Menu Button */
 
 #icon-menu {
@@ -94,7 +100,7 @@ div.grid-home {
 // Works
 
 div.grid-works {
-  overflow-y: visible !important;
+  overflow-y: auto !important;
   overflow-x: hidden !important;
   .grid-2, .grid-3, .grid-4, .grid-5 {
     a {
