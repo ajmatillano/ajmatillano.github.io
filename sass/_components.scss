@@ -278,6 +278,9 @@ div.page-single {
     margin-right: auto;
     max-width: 70%;
   }
+  @media screen and (max-width: 60em) {
+    padding-top: 64px;
+  }
 }
 
 
