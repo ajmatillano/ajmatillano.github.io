@@ -1,7 +1,7 @@
 // sidemenu
 
 #sidemenu {
-  display: block;
+  //display: block !important;
   background-color: $color-white;
   @extend .border-thin-dark;
   border-top: none;
