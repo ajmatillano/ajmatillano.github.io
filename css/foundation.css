@@ -2640,10 +2640,10 @@ a.button:hover, a.button:focus {
   visibility: hidden;
   overflow: hidden; }
   .js-off-canvas-overlay.is-visible {
-  /* opacity: 1;
-visibility: visible;*/ }
+   opacity: 1;
+   visibility: visible; }
   .js-off-canvas-overlay.is-closable {
-/*   cursor: pointer; */}
+    cursor: pointer; }
   .js-off-canvas-overlay.is-overlay-absolute {
     position: absolute; }
   .js-off-canvas-overlay.is-overlay-fixed {
