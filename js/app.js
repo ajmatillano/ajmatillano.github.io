@@ -12,8 +12,11 @@ var menuToggle = function menuToggle() {
 //iconmenu.addEventListener("click", menuAnimReverse);
 iconmenu.addEventListener("mouseover", menuAnimExpand);
 iconmenu.addEventListener("mouseout", menuAnimReverse);
+
 sidemenu.addEventListener("webkitTransitionEnd", menuAnim);
 sidemenu.addEventListener("TransitionEnd", menuAnim);
+sidemenu.addEventListener("oTransitionEnd", menuAnim);
+sidemenu.addEventListener("transitionend", menuAnim);
 
 function menuAnimReverse(){
    if (sideMenuDisplayed == 0) {

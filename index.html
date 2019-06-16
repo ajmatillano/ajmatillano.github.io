@@ -50,7 +50,7 @@
 
 
     <!-- Sidemenu -->
-    <a href="#sidemenu" data-toggle="sidemenu" onclick="menuToggle()">
+    <a data-toggle="sidemenu" onclick="menuToggle()">
       <svg id="icon-menu" width="40px" height="41px" viewBox="0 0 40 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
         <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
             <g id="button/menu" transform="translate(0.000000, 0.857672)">
@@ -69,12 +69,12 @@
 
         <div class="off-canvas position-left" id="sidemenu" style="transform: translateX(-250px);"  data-off-canvas data-transition="overlay">
           <div class="row column">
-            <a class="activeLink" href="index.html" target="_parent"><h5>Home</h5></a>
-            <a href="works.html" target="_parent"><h5>Works</h5></a>
-            <a  href="about.html" target="_parent"><h5>About</h5></a>
+            <a class="activeLink" href="index.html" target="_parent" tabindex="2"><h5>Home</h5></a>
+            <a href="works.html" target="_parent" tabindex="3"><h5>Works</h5></a>
+            <a  href="about.html" target="_parent" tabindex="4"><h5>About</h5></a>
           </div>
           <div>
-            <p class="text_small">Created by <a href="https://github.com/ajmatillano/ajmatillano.github.io" target="_blank">aj matillano</a></p>
+            <p class="text_small">Created by <a href="https://github.com/ajmatillano/ajmatillano.github.io" target="_blank" tabindex="5">aj matillano</a></p>
           </div>
         </div>
 
@@ -113,7 +113,7 @@
                   <br/>
                   <h1>aj matillano</h1>
                   <p>UX/UI DESIGNER</p>
-                  <a href="works.html" target="_self" id="view-works">View Works <span id="rarr">&rarr;</span></a>
+                  <a href="works.html" target="_self" id="view-works" tabindex="1">View Works <span id="rarr">&rarr;</span></a>
                 </div>
               </div>
 

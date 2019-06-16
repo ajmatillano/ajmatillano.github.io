@@ -12,6 +12,12 @@
   }
 }
 
+// removing dotted lines in mozilla links {
+  a:-moz-focus-inner {
+    border: none;
+  }
+}
+
 
 // Width adjusts relative to viewport when side-menu is opened
 
