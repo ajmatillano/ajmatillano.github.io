@@ -383,6 +383,51 @@
   }
 }
 
+#icon-menu.menuAnimExpand {
+  #bot {
+    transform: translateY(2px);
+    transform-origin: 25px 23px;
+    animation: botAnimExpand .5s 0s forwards;
+    -webkit-animation-fill-mode: forwards;/* Safari 4.0 - 8.0 */
+  }
+  #top {
+    transform: translateY(-2px);
+    transform-origin: 26px 18px;
+    animation: topAnimExpand .5s 0s forwards;
+    -webkit-animation-fill-mode: forwards;/* Safari 4.0 - 8.0 */
+  }
+  #mid {
+    display: block;
+  }
+}
+
+/* Menu Expand */
+
+@keyframes botAnimExpand {
+  0% {
+    transform: translateY(2px);
+  }
+  50% {
+    transform: translateY(4px);
+  }
+  100% {
+    transform: rotateZ(0deg);
+  }
+}
+
+@keyframes topAnimExpand {
+  0% {
+    transform: translateY(-2px);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
+  100% {
+    transform: rotateZ(0deg);
+  }
+}
+
+
 /* Menu to Close Animation */
 
 @keyframes botAnim {
@@ -409,7 +454,7 @@
   }
 }
 
-
+/* Menu Reverse */
 @keyframes botAnimReverse {
   0% {
     transform: translateY(-2px);

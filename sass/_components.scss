@@ -49,9 +49,10 @@
   margin: 16px;
   z-index: 9999999;
   &:hover {
-    #Rectangle {
-      fill: $color-creamDarker;
+    #bot, #mid, #top {
+      fill: $color-blue;
     }
+    cursor: pointer;
   }
 }
 
@@ -190,17 +191,32 @@ div.grid-about {
       }
     }
   }
-  .grid-4 {
+  .grid-3 {
     p {
-      color: $color-pink;
+      color: $color-yellow;
     }
     a {
+      color: $color-yellow;
       margin-top: 0px;
       padding: 12px;
       display: inline-block;
     }
+    svg {
+      g#linkedin {
+        fill: $color-yellow;
+      }
+      g#dribble {
+        fill: $color-yellow;
+      }
+      g#twitter {
+        fill: $color-yellow;
+      }
+      g#codepen {
+        fill: $color-yellow;
+      }
+    }
   }
-  .grid-3 {
+  .grid-4 {
     background: no-repeat center;
     background-size: cover;
     background-image: url('../img/covers/ajPhoto.png');
@@ -208,7 +224,7 @@ div.grid-about {
   a:hover {
     @mixin darken-hover {
       transition: .5s;
-      fill: $color-pinkDarker;
+      fill: $color-yellowDarker;
     }
     svg {
       g#linkedin {
