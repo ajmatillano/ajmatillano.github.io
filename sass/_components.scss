@@ -1,7 +1,8 @@
 // sidemenu
 
 #sidemenu {
-  //display: block !important;
+  display: block !important;
+  opacity: 0;
   background-color: $color-cream;
   @extend .border-thin-dark;
   border-top: none;
@@ -11,6 +12,9 @@
   text-align: center;
   .activeLink {
     color: $color-blue;
+  }
+  a {
+    transition: none;
   }
   div {
     margin-top: 80px;
