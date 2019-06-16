@@ -41,9 +41,13 @@
 @media screen and (max-width: 60em) {
   .position-left {
     width: 100% !important;
-      -webkit-transform: translateX(-100%) !important;
-          -ms-transform: translateX(-100%) !important;
-              transform: translateX(-100%) !important;
+    -webkit-transform: translateX(-100%) !important;
+        -ms-transform: translateX(-100%) !important;
+            transform: translateX(-100%) !important;
+    -webkit-transition: -webkit-transform 0.8s ease;
+    transition: -webkit-transform 0.8s ease;
+    transition: transform 0.8s ease;
+    transition: transform 0.8s ease, -webkit-transform 0.8s ease;
   }
 }
 
