@@ -138,6 +138,25 @@
   }
 }
 
+.grid-6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $color-cream;
+  text-align: center;
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row: 3;
+  @media screen and (max-width: 60em) {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row: 6;
+  }
+  div {
+    flex: 1;
+  }
+}
+
 .callout {
   margin: 0;
 }
