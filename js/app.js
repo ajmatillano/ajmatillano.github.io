@@ -1,23 +1,24 @@
 var iconmenu = document.getElementById("icon-menu");
 var iconmenuLink = document.getElementById("icon-menu-link");
 var sidemenu = document.getElementById("sidemenu");
-var displayValue = document.getElementById("sidemenu").style.display;
 var sideMenuDisplayed = 0;
+
+iconmenu.addEventListener("mouseover", menuAnimExpand);
+iconmenu.addEventListener("mouseout", menuAnimReverse);
 
 iconmenuLink.addEventListener("click", menuToggle);
 
 function menuToggle() {
-    sidemenu.style.opacity = "1";
+  if (sideMenuDisplayed == 0) {
+    sidemenu.classList.add("showMenu");
+    sidemenu.classList.remove("hideMenu");
+    menuAnim();
+  } else {
+    sidemenu.classList.remove("showMenu");
+    sidemenu.classList.add("hideMenu");
+    menuAnim();
+  }
 };
-
-//iconmenu.addEventListener("click", menuAnimReverse);
-iconmenu.addEventListener("mouseover", menuAnimExpand);
-iconmenu.addEventListener("mouseout", menuAnimReverse);
-
-sidemenu.addEventListener("webkitTransitionEnd", menuAnim);
-sidemenu.addEventListener("TransitionEnd", menuAnim);
-sidemenu.addEventListener("oTransitionEnd", menuAnim);
-sidemenu.addEventListener("transitionend", menuAnim);
 
 function menuAnimReverse(){
    if (sideMenuDisplayed == 0) {
@@ -37,10 +38,14 @@ function menuAnim(){
     iconmenu.classList.remove("menuAnimExpand");
     iconmenu.classList.remove("menuAnimReverse");
     sideMenuDisplayed = 1;
+    console.log(sideMenuDisplayed);
   } else {
+    sidemenu.classList.remove("showMenu");
+    sidemenu.classList.add("hideMenu");
     iconmenu.classList.remove("menuAnim");
     iconmenu.classList.remove("menuAnimExpand");
     iconmenu.classList.add("menuAnimReverse");
     sideMenuDisplayed = 0;
+    console.log(sideMenuDisplayed);
   }
 }
