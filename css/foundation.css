@@ -2626,29 +2626,6 @@ a.button:hover, a.button:focus {
 .is-off-canvas-open {
   overflow: hidden; }
 
-.js-off-canvas-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 11;
-  width: 100%;
-  height: 100%;
-  -webkit-transition: opacity 0.5s ease, visibility 0.5s ease;
-  transition: opacity 0.5s ease, visibility 0.5s ease;
-  background: rgba(254, 254, 254, 0.25);
-  opacity: 0;
-  visibility: hidden;
-  overflow: hidden; }
-  .js-off-canvas-overlay.is-visible {
-   opacity: 1;
-   visibility: visible; }
-  .js-off-canvas-overlay.is-closable {
-    cursor: pointer; }
-  .js-off-canvas-overlay.is-overlay-absolute {
-    position: absolute; }
-  .js-off-canvas-overlay.is-overlay-fixed {
-    position: fixed; }
-
 .off-canvas-wrapper {
   position: relative;
   overflow: hidden; }
@@ -2705,23 +2682,6 @@ a.button:hover, a.button:focus {
         -ms-transform: translate(0, 0);
             transform: translate(0, 0); }
 
-.position-left {
-  top: 0;
-  left: 0;
-  height: 100%;
-  overflow-y: auto;
-  width: 250px;
-  -webkit-transform: translateX(-250px) !important;
-      -ms-transform: translateX(-250px) !important;
-          transform: translateX(-250px) !important; }
-  .off-canvas-content .off-canvas.position-left {
-    -webkit-transform: translateX(-250px) !important;
-        -ms-transform: translateX(-250px) !important;
-            transform: translateX(-250px) !important; }
-    .off-canvas-content .off-canvas.position-left.is-transition-overlap.is-open {
-      -webkit-transform: translate(0, 0) !important;
-          -ms-transform: translate(0, 0) !important;
-              transform: translate(0, 0) !important; }
   .off-canvas-content.is-open-left.has-transition-push {
     -webkit-transform: translateX(250px) !important;
         -ms-transform: translateX(250px) !important;
@@ -3231,16 +3191,6 @@ html.is-reveal-open {
   html.is-reveal-open body {
     overflow-y: hidden; }
 
-.reveal-overlay {
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 1005;
-  display: none;
-  background-color: rgba(10, 10, 10, 0.45);
-  overflow-y: auto; }
 
 .reveal {
   z-index: 1006;

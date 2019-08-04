@@ -1,11 +1,12 @@
 var iconmenu = document.getElementById("icon-menu");
+var iconmenuLink = document.getElementById("icon-menu-link");
 var sidemenu = document.getElementById("sidemenu");
 var displayValue = document.getElementById("sidemenu").style.display;
 var sideMenuDisplayed = 0;
 
-console.log(sideMenuDisplayed, "begin");
+iconmenuLink.addEventListener("click", menuToggle);
 
-var menuToggle = function menuToggle() {
+function menuToggle() {
     sidemenu.style.opacity = "1";
 };
 
@@ -22,14 +23,12 @@ function menuAnimReverse(){
    if (sideMenuDisplayed == 0) {
       iconmenu.classList.add("menuAnimReverse");
       iconmenu.classList.remove("menuAnimExpand");
-      console.log(sideMenuDisplayed, "mouseout");
   }
 }
 function menuAnimExpand(){
     if (sideMenuDisplayed == 0) {
       iconmenu.classList.add("menuAnimExpand");
       iconmenu.classList.remove("menuAnimReverse");
-      console.log(sideMenuDisplayed, "mouseover");
     }
 }
 function menuAnim(){
@@ -38,12 +37,10 @@ function menuAnim(){
     iconmenu.classList.remove("menuAnimExpand");
     iconmenu.classList.remove("menuAnimReverse");
     sideMenuDisplayed = 1;
-    console.log(sideMenuDisplayed, "transition end");
   } else {
     iconmenu.classList.remove("menuAnim");
     iconmenu.classList.remove("menuAnimExpand");
     iconmenu.classList.add("menuAnimReverse");
     sideMenuDisplayed = 0;
-    console.log(sideMenuDisplayed, "transition end");
   }
 }
