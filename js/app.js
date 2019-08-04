@@ -38,7 +38,6 @@ function menuAnim(){
     iconmenu.classList.remove("menuAnimExpand");
     iconmenu.classList.remove("menuAnimReverse");
     sideMenuDisplayed = 1;
-    console.log(sideMenuDisplayed);
   } else {
     sidemenu.classList.remove("showMenu");
     sidemenu.classList.add("hideMenu");
@@ -46,6 +45,5 @@ function menuAnim(){
     iconmenu.classList.remove("menuAnimExpand");
     iconmenu.classList.add("menuAnimReverse");
     sideMenuDisplayed = 0;
-    console.log(sideMenuDisplayed);
   }
 }
