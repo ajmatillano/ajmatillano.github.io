@@ -75,6 +75,14 @@
     transition: transform 0.8s ease;
     transition: transform 0.8s ease, -webkit-transform 0.8s ease;
   }
+  #sidemenu.hideMenu {
+    opacity: 1 !important;
+    transform: translateX(-100%) !important;
+    -webkit-transition: -webkit-transform 0.5s ease;
+    transition: -webkit-transform 0.5s ease;
+    transition: transform 0.5s ease;
+    transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  }
 }
 
 /* Menu Button */
