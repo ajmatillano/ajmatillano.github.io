@@ -17,6 +17,9 @@ $color-white: #FFFFFF;
 }
 
 // Main
+html {
+  scroll-behavior: smooth;
+}
 body {
   background-color: $color-white;
   color: $color-blue;
