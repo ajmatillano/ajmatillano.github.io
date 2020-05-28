@@ -1,3 +1,51 @@
+/* Head White */
+#aj-head {
+  opacity: 0;
+  transform: opacity;
+  transform-origin: center;
+  animation: appear 1.5s ease-in-out forwards;
+}
+#glassesR {
+  transform: translateY(35px) scaleY(.50);
+  animation: glassesAnimR 3s .6s forwards;
+  -webkit-animation-fill-mode: forwards;/* Safari 4.0 - 8.0 */
+}
+#glassesL {
+  transform: translateY(35px) scaleY(.50);
+  animation: glassesAnim 1.5s .6s forwards;
+  -webkit-animation-fill-mode: forwards;/* Safari 4.0 - 8.0 */
+}
+#earringsR {
+  transform: translateY(-5px);
+  animation: earringsAnimR 3s .6s forwards;
+  -webkit-animation-fill-mode: forwards;/* Safari 4.0 - 8.0 */
+}
+#earringsL {
+  transform: translateY(-5px);
+  animation: earringsAnim 1.5s .6s forwards;
+  -webkit-animation-fill-mode: forwards;/* Safari 4.0 - 8.0 */
+}
+#face {
+  transform: translateY(50px) scaleY(.64);
+  animation: faceAnim 3s .6s forwards;
+  -webkit-animation-fill-mode: forwards;/* Safari 4.0 - 8.0 */
+}
+#bangsR {
+  transform: translateY(55px) scaleY(.64);
+  animation: bangsAnim 3s .6s forwards;
+  -webkit-animation-fill-mode: forwards;/* Safari 4.0 - 8.0 */
+}
+#bangsL {
+  transform: translateY(50px) scale(.80);
+  animation: bangsAnim 3s .6s forwards;
+  -webkit-animation-fill-mode: forwards;/* Safari 4.0 - 8.0 */
+}
+#hairBack {
+  transform: translate(0px, 20px) scaleY(.80) ;
+  animation: hairBackAnim 3s .6s forwards;
+  -webkit-animation-fill-mode: forwards;/* Safari 4.0 - 8.0 */
+}
+
 /* Head Yellow */
 #aj-head-yellow {
   opacity: 0;
