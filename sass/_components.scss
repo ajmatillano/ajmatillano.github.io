@@ -4,7 +4,7 @@ div.grid-navigation {
   background: $color-yellowishGray4;
   div.grid-navigation-content {
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 25%;
     transform: translate(-50%, -50%);
   }
@@ -32,14 +32,11 @@ div.grid-navigation {
         margin-left: 0;
       }
       &:hover {
-        background-color: $color-tertiary4;
+        color: red;
       }
     }
     a.active {
       background-color: $color-tertiary4;
-    }
-    p {
-      color: $color-secondary1;
     }
   }
 }
@@ -48,10 +45,8 @@ div.grid-navigation {
 
 div.grid-works {
   padding: 20px;
-  #works-row {
-    height: 50%;
-    overflow-y: scroll;
-  }
+  height: 100vh;
+  overflow-y: scroll;
   div.work-thumb {
     margin: 20px;
     background: $color-yellowishGray4;
@@ -59,42 +54,49 @@ div.grid-works {
     img {
       width: 100%;
     }
-  }
-  div.work-thumb-container:hover {
-    cursor: pointer;
-    div.work-thumb-hover {
-     transition: 1s;
-     opacity: 1;
-     z-index: 1;
-     p {
-       transition: 1s;
+    &:hover {
+      cursor: pointer;
+      div.work-thumb-hover-container {
+       transition: .8s;
        opacity: 1;
-       transform: translate(0px);
-     }
-   }
+       z-index: 1;
+      }
+      div.work-thumb-hover {
+       transition: .8ss;
+       opacity: 1;
+       z-index: 1;
+       p {
+         transition: 1s;
+         opacity: 1;
+         transform: translate(0px);
+       }
+      }
+    }
   }
   div.work-thumb-hover {
-    transition: 1s;
+    transition: .8s;
     opacity: 0;
     z-index: -1;
     position: absolute;
-    margin: 20px;
     border-radius: 4px;
     display: block;
   }
   div.work-thumb-hover-container {
+    width: 100%;
+    opacity: 0;
+    z-index: -1;
     position: relative;
   }
   div.work-thumb-hover-content {
     p {
-      transition: 1s;
+      transition: .8s;
       color: $color-white;
       margin-bottom: 0;
       opacity: 0;
       transform: translateY(24px);
     }
-    margin: 24px;
-    bottom: 0;
+    margin: 0 10% 0 10%;
+    bottom: 10%;
     position: absolute;
   }
 }

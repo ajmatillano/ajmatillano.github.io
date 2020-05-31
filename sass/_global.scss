@@ -7,13 +7,13 @@ $color-primary3: #899FAA;
 $color-primary4: #C4CFD5;
 
 $color-secondary1: #EE8F90;
-$color-secondary1-dark: #7C4A4B;
+$color-secondary1-dark: #DC8283;
 $color-secondary2: #F1A5A6;
 $color-secondary3: #F7C9CA;
 $color-secondary4: #FBE4E4;
 
 $color-tertiary1: #F5D76A;
-$color-tertiary1-dark: #7F5E37;
+$color-tertiary1-dark: #EACB5A;
 $color-tertiary2: #F7DF88;
 $color-tertiary3: #FAECB7;
 $color-tertiary4: #FDF5DB;
@@ -41,6 +41,7 @@ $color-white: #FFFFFF;
 // Main
 html {
   scroll-behavior: smooth;
+  height: 100%;
 }
 body {
   background-color: $color-white;
@@ -112,10 +113,18 @@ h4 {
   line-height: 36px;
 }
 
-a {
+a, a p {
+  font-family: 'Poppins', sans-serif;
   color: $color-secondary1;
   &:hover {
     transition: .5s;
     color: $color-secondary1-dark;
   }
+}
+
+.filler {
+  display: block;
+  opacity: 0;
+  z-index: -9999999;
+  height: 50%;
 }
