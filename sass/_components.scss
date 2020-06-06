@@ -1,6 +1,7 @@
 // Navigation
 
 div.grid-navigation {
+  height: 100vh;
   background: $color-yellowishGray4;
   div.grid-navigation-content {
     position: absolute;
@@ -41,28 +42,41 @@ div.grid-navigation {
   }
 }
 
+// Grid Content Panel
+
+div.grid-content-panel {
+  padding: 24px;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
 // Grid WORKS
 
 div.grid-works {
   padding: 20px;
-  height: 100vh;
-  overflow-y: scroll;
+  div.work-thumb-container {
+    padding: 20px;
+  }
   div.work-thumb {
-    margin: 20px;
     background: $color-yellowishGray4;
     border-radius: 4px;
+    transition: 0.5s;
     img {
       width: 100%;
     }
     &:hover {
       cursor: pointer;
+      box-shadow: 4px 16px 24px rgba(0, 0, 0, 0.16), 4px 16px 12px rgba(0, 0, 0, 0.08);
+      margin-top: -8px;
+      transition: 0.5s;
       div.work-thumb-hover-container {
        transition: .8s;
        opacity: 1;
        z-index: 1;
+       transition: 0.5s;
       }
       div.work-thumb-hover {
-       transition: .8ss;
+       transition: .8s;
        opacity: 1;
        z-index: 1;
        p {
@@ -99,4 +113,44 @@ div.grid-works {
     bottom: 10%;
     position: absolute;
   }
+}
+
+// Grid ABOUT
+
+div.grid-about {
+  div.grid-x {
+    padding: 24px;
+  }
+  div.about-photo {
+    text-align: center;
+    img {
+      max-width: 160px;
+      width: 100%;
+      height: auto;
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+  div.about-gallery {
+    margin-top: -16px;
+    img {
+    width: 100%;
+    padding: 2px;
+    padding: 2px;
+    }
+  }
+  div.bible-verse {
+    text-align: center;
+    p {
+      color: $color-gray3;
+    }
+  }
+}
+
+// Horizontal Divider
+
+div.divider-horizontal {
+  text-align: center;
+  color: $color-gray3;
 }

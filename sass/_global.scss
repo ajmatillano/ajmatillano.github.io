@@ -42,6 +42,7 @@ $color-white: #FFFFFF;
 html {
   scroll-behavior: smooth;
   height: 100%;
+  transition: 0.5s;
 }
 body {
   background-color: $color-white;
@@ -113,7 +114,7 @@ h4 {
   line-height: 36px;
 }
 
-a, a p {
+a, a p, p a {
   font-family: 'Poppins', sans-serif;
   color: $color-secondary1;
   &:hover {
