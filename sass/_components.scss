@@ -60,7 +60,7 @@ div.grid-works {
   div.work-thumb {
     background: $color-yellowishGray4;
     border-radius: 4px;
-    transition: 0.5s;
+    transition: 0.15s;
     img {
       width: 100%;
     }
@@ -140,11 +140,77 @@ div.grid-about {
     padding: 2px;
     }
   }
-  div.bible-verse {
-    text-align: center;
-    p {
-      color: $color-gray3;
+}
+
+// Grid CONNECT
+
+div.grid-connect {
+  div.connect-content {
+    position: absolute;
+    top: 50%;
+    transform: translate(10%, -50%);
+    div {
+      text-align: left;
     }
+    div.connect-info {
+      padding: 16px;
+    }
+    div.social-media {
+      div {
+        display: inline-block;
+        &:hover {
+          p {
+            opacity: 1;
+            transform: translateY(0);
+            transition: 0.5s;
+          }
+        }
+        p {
+          opacity: 0;
+          transition: 0.5s;
+          transform: translateY(8px);
+          text-align: center;
+          margin-bottom: 4px;
+        }
+      }
+      div.linkedin {
+        p {
+          color: #1178B3;
+        }
+      }
+      div.github {
+        p {
+          color: #000000;
+        }
+      }
+      div.dribbble {
+        p {
+          color: #E84F8A;
+        }
+      }
+      div.twitter {
+        p {
+          color: #1DB4DF;
+        }
+      }
+      div.instagram {
+        p {
+          color: #ED1376;
+        }
+      }
+    }
+    img {
+      margin: 0 16px 24px 16px;
+    }
+  }
+}
+
+// Bible Verse
+
+div.bible-verse {
+  text-align: center;
+  p {
+    color: $color-gray3;
   }
 }
 
