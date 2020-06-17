@@ -99,4 +99,22 @@
     }
   }
 
+  // Back button
+  a#close-button {
+    img {
+    position: absolute;
+    right: 16px;
+    }
+  }
+
+  // Projects
+
+  div.grid-project {
+    div.project-header {
+      h1 {
+        margin-top: 40px;
+      }
+    }
+  }
+
 }

@@ -550,23 +550,25 @@ a#forward:hover {
   }
 }
 
-a#back:hover{
-  img#larr {
+a#close-button:hover{
+  img {
     cursor: pointer;
-    margin-left: -2px;
-    animation: larrAnim .5s 0s forwards;
+    animation: closeAnim .5s 0s forwards;
     -webkit-animation-fill-mode: forwards;/* Safari 4.0 - 8.0 */
   }
 }
 
-@keyframes larrAnim {
+@keyframes closeAnim {
   0% {
-    margin-left: -2px;
+    transform: rotateZ(0deg);
   }
   50% {
-    margin-left: -4px;
+    transform: rotateZ(90deg);
+  }
+  80% {
+    transform: rotateZ(70deg);
   }
   100% {
-    margin-left: -2px;
+    transform: rotateZ(90deg);
   }
 }

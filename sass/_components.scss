@@ -224,9 +224,11 @@ div.divider-horizontal {
 
 // Back Button
 
-a#back {
+a#close-button {
   img {
     margin-top: -2px;
+    position: fixed;
+    right: 24px;
   }
 }
 
