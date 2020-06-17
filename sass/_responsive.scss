@@ -1,5 +1,19 @@
 // Medium
 
+@media only screen and (min-width: 1024px) {
+  div.main-container.project-view {
+    margin: auto;
+    max-width: 1200px;
+    scroll-behavior: smooth;
+    height: auto;
+    overflow: scroll;
+    div.grid-content-panel {
+      height: auto;
+      overflow: hidden;
+    }
+  }
+}
+
 @media only screen and (max-width: 1024px) {
   // Grid Navigation
   div.grid-navigation {

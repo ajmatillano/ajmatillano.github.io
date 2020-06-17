@@ -529,8 +529,8 @@
 
 //  Arrows
 
-a:hover {
-  span#rarr {
+a#forward:hover {
+  img#rarr {
     cursor: pointer;
     margin-right: -5px;
     animation: rarrAnim .5s 0s forwards;
@@ -550,10 +550,10 @@ a:hover {
   }
 }
 
-a:hover{
-  span#larr {
+a#back:hover{
+  img#larr {
     cursor: pointer;
-    margin-left: -5px;
+    margin-left: -2px;
     animation: larrAnim .5s 0s forwards;
     -webkit-animation-fill-mode: forwards;/* Safari 4.0 - 8.0 */
   }
@@ -561,12 +561,12 @@ a:hover{
 
 @keyframes larrAnim {
   0% {
-    margin-left: -5px;
+    margin-left: -2px;
   }
   50% {
-    margin-left: -10px;
+    margin-left: -4px;
   }
   100% {
-    margin-left: -5px;
+    margin-left: -2px;
   }
 }

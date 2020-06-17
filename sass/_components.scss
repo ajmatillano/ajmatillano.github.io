@@ -221,3 +221,52 @@ div.divider-horizontal {
   text-align: center;
   color: $color-gray3;
 }
+
+// Back Button
+
+a#back {
+  img {
+    margin-top: -2px;
+  }
+}
+
+// Project View
+
+div.grid-project {
+  div.project-header {
+    margin: auto;
+    text-align: center;
+    h4 {
+      color: $color-gray3;
+    }
+    img {
+      margin-top: 24px;
+      margin-bottom: 24px;
+    }
+  }
+  div.project-section {
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    ol {
+      padding-left: 24px;
+      list-style-type: upper-roman;
+      h4 li a {
+          font-family: 'Merriweather', serif;
+      }
+    }
+    div.divider-horizontal {
+      margin-top: 80px;
+      margin-bottom: 80px;
+    }
+    h4 {
+      margin-top: 24px;
+    }
+    img {
+      margin-top: 48px;
+    }
+    p.font-small {
+      margin-bottom: 0px;
+    }
+  }
+}
