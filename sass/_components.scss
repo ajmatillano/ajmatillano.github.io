@@ -2,7 +2,6 @@
 
 div.grid-navigation {
   height: 100vh;
-  background: $color-yellowishGray4;
   div.grid-navigation-content {
     position: absolute;
     top: 45%;
@@ -32,12 +31,61 @@ div.grid-navigation {
       &:nth-child(1) {
         margin-left: 0;
       }
-      &:hover {
-        color: red;
-      }
     }
+  }
+}
+div.grid-navigation-blue {
+  background: $color-primary1;
+  div.menu-buttons {
     a.active {
-      background-color: $color-tertiary4;
+      background-color: $color-primary1-dark;
+    }
+    a.active p:hover, a.active:hover {
+      color: $color-secondary1;
+      cursor: default;
+    }
+    a:hover, a p:hover, p a:hover {
+      color: $color-tertiary1;
+    }
+  }
+}
+
+
+div.grid-navigation-pink {
+  background: $color-secondary1;
+  div.menu-buttons {
+    a.active {
+      background-color: $color-secondary1-dark;
+    }
+    a.active p:hover, a.active:hover {
+      color: $color-tertiary1;
+      cursor: default;
+    }
+    a, a p, p a {
+      color: $color-tertiary1;
+    }
+    a:hover, a p:hover, p a:hover {
+      color: $color-primary1;
+    }
+  }
+}
+
+
+div.grid-navigation-yellow {
+  background: $color-tertiary1;
+  div.menu-buttons {
+    a.active {
+      background-color: $color-tertiary1-dark;
+    }
+    a.active p:hover, a.active:hover {
+      color: $color-primary1;
+      cursor: default;
+    }
+    a, a p, p a {
+      color: $color-primary1;
+    }
+    a:hover, a p:hover, p a:hover {
+      color: $color-secondary1;
     }
   }
 }
@@ -55,7 +103,12 @@ div.grid-content-panel {
 div.grid-works {
   padding: 20px;
   div.work-thumb-container {
+    max-width: 600px;
+    margin: auto;
     padding: 20px;
+    a h4, a p {
+      color: $color-white;
+    }
   }
   div.work-thumb {
     background: $color-yellowishGray4;
@@ -67,7 +120,6 @@ div.grid-works {
     &:hover {
       cursor: pointer;
       box-shadow: 4px 16px 24px rgba(0, 0, 0, 0.16), 4px 16px 12px rgba(0, 0, 0, 0.08);
-      margin-top: -8px;
       transition: 0.5s;
       div.work-thumb-hover-container {
        transition: .8s;
@@ -79,7 +131,7 @@ div.grid-works {
        transition: .8s;
        opacity: 1;
        z-index: 1;
-       p {
+       p, h4 {
          transition: 1s;
          opacity: 1;
          transform: translate(0px);
@@ -90,28 +142,31 @@ div.grid-works {
   div.work-thumb-hover {
     width: 100%;
     transition: .8s;
-    opacity: 0;
-    z-index: -1;
+    opacity: 1;
+    z-index: 1;
     position: absolute;
     border-radius: 4px;
     display: block;
   }
   div.work-thumb-hover-container {
     width: 100%;
-    opacity: 0;
-    z-index: -1;
+    opacity: 1;
+    z-index: 1;
     position: relative;
   }
   div.work-thumb-hover-content {
-    p {
+    p, h4 {
       transition: .8s;
       color: $color-white;
       margin-bottom: 0;
-      opacity: 0;
+      opacity: 1;
       transform: translateY(24px);
     }
-    margin: 0 10% 0 10%;
-    bottom: 10%;
+    p {
+      opacity: 0;
+    }
+    margin: 0 48px 0 48px;
+    bottom: 24px;
     position: absolute;
   }
 }
@@ -148,8 +203,8 @@ div.grid-about {
 div.grid-connect {
   div.connect-content {
     position: absolute;
-    top: 50%;
-    transform: translate(10%, -50%);
+    top: 45%;
+    transform: translate(10%, -45%);
     div {
       text-align: left;
     }
@@ -236,10 +291,12 @@ a#close-button {
 
 div.grid-project {
   div.project-header {
-    margin: auto;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     h4 {
-      color: $color-gray3;
+      color: $color-gray2;
     }
     img {
       margin-top: 24px;
