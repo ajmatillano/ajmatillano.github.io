@@ -71,12 +71,18 @@ div.grid-content-panel {
       transform: translateY(-50%);
     }
   }
+}
+
+// ABOUT
+
+div.grid-project div.project-section {
   div.about-gallery {
     margin-top: -16px;
     img {
+    margin-top: 2px;
     width: 100%;
-    padding: 2px;
-    padding: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
     }
   }
 }
