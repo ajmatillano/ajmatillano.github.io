@@ -1,28 +1,126 @@
-// Medium
+// Large
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 2300px) {
   div.main-container.project-view {
     margin: auto;
     max-width: 1024px;
     scroll-behavior: smooth;
     height: auto;
     overflow: scroll;
-    div.grid-content-panel {
-      height: auto;
-      overflow: hidden;
-    }
+  }
+
+// Fonts
+  html {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .font-extra-big {
+    font-size: 120px;
+    line-height: 200px;
+  }
+
+  .font-small, .caption  {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .font-extra-small {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  h1 {
+    font-size: 100px;
+    line-height: 160px;
+  }
+
+  h2 {
+    font-size: 80px;
+    line-height: 120px;
+  }
+
+  h3 {
+    font-size: 64px;
+    line-height: 96px;
+  }
+
+  h4 {
+    font-size: 48px;
+    line-height: 64px;
   }
 }
 
+// Medium
+
 @media only screen and (max-width: 1024px) {
-  // Grid Navigation
-  div.grid-navigation {
-    div.grid-navigation-content {
+
+  div.main-container {
+    div.grid-content-panel {
+      margin: auto;
+    }
+    div.grid-logo {
+      position: relative;
+      height: 320px;
+      div.grid-logo-content {
+        position: static;
+        transform: translate(0,0);
+        padding-top: 32px;
+      }
       svg {
-        max-width: 50%;
+        width: 50%;
       }
     }
   }
+
+
+  // Fonts
+
+  html {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .font-extra-big {
+    font-size: 64px;
+    line-height: 96px;
+  }
+
+  .font-small, .caption  {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .font-extra-small {
+    font-size: 10px;
+    line-height: 15px;
+  }
+
+  p.caption {
+    margin-top: 8px;
+    margin-bottom: 48px;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 48px;
+    line-height: 72px;
+  }
+
+  h2 {
+    font-size: 40px;
+    line-height: 60px;
+  }
+
+  h3 {
+    font-size: 32px;
+    line-height: 48px;
+  }
+
+  h4 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
   // Grid WORKS
   div.grid-works {
     div.work-thumb {
@@ -49,54 +147,25 @@
 
 @media only screen and (max-width: 640px) {
   // Main Container
-  body div.grid-y.grid-frame.main-container {
+  body div.main-container {
     min-width: 300px;
     overflow: scroll;
-  }
-
-  // Grid Content Container
-  div.grid-content-panel {
-    height: auto;
-  }
-
-  // Grid WORKS
-  div.grid-works {
-    overflow: auto;
-  }
-
-  // Grid Navigation
-  div.grid-navigation {
-    height: 32vh;
-    div.grid-navigation-content {
-      position: static;
-      left: 0;
-      transform: translate(0,0);
-      top: 0;
-      svg {
-        margin-top: -24px;
-        max-width: 80px;
-      }
-    }
-    div.menu-buttons {
-      margin-top: -24px;
-    }
-  }
-
-
-  // Grid CONNECT
-  div.grid-connect div.connect-content {
-    position: static;
-    transform: translate(0,0);
-    text-align: center;
-    top: 0;
-    div.connect-info {
+    div.about-photo {
+      max-width: 200px;
       margin-left: auto;
       margin-right: auto;
+      margin-bottom: 24px;
     }
-    div.social-media {
-      margin-left: auto;
-      margin-right: auto;
+    div.about-intro {
+      text-align: center;
     }
+    div.photo {
+      margin-bottom: 24px;
+    }
+  }
+  body div.project-view {
+    padding-left: 24px;
+    padding-right: 24px;
   }
 
   // Back button

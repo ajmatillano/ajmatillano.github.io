@@ -60,7 +60,7 @@ div.grid-content-panel {
   a h4 {
     color: $color-gray1;
   }
-  div.photo {
+  div.photo, div.about-photo {
     text-align: center;
     img {
       padding-right: 24px;
@@ -171,7 +171,11 @@ a#close-button {
 }
 
 // Project View
-
+div.project-view div.grid-project {
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
 div.grid-project {
   div.project-header {
     margin-top: 64px;
