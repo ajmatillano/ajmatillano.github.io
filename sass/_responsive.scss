@@ -8,6 +8,14 @@
     height: auto;
     overflow: scroll;
   }
+  div.grid-content-panel {
+    div.about-photo img {
+      max-width: 200px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 24px;
+    }
+  }
 
 // Fonts
   html {
@@ -53,18 +61,93 @@
 // Medium
 
 @media only screen and (max-width: 1024px) {
+  // Body
+  body div.main-container-home {
+    background-image: url('../img/about/ajPhotoFull.png');
+    background-repeat: no-repeat;
+    background-position: 25% 25%;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  // Content
+  div.grid-content-panel {
+    background: $color-white;
+  }
+
+  // Main Container
+  body div.main-container {
+    min-width: 300px;
+    overflow: scroll;
+    div.grid-logo {
+      svg {
+        width: 25%;
+      }
+      img.logo {
+        padding-top: 0;
+      }
+    }
+    div.grid-logo.grid-logo-desktop {
+      display: none;
+    }
+    div.grid-logo.grid-logo-mobile, div.grid-logo {
+      height: 90vh;
+      display: block;
+      p {
+        text-align: center;
+        position: absolute;
+        bottom: 24px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      p#arrow-down {
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      div.grid-logo-content {
+        margin-top: 25vh;
+      }
+    }
+    div.grid-content-panel {
+      margin-top: 60vh;
+      div.about-photo img {
+        max-width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 24px;
+      }
+      div.photo {
+        margin-bottom: 24px;
+      }
+    }
+    div.about-intro {
+      text-align: center;
+    }
+    div.about-photo {
+      display: none;
+    }
+  }
+  body div.project-view {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+// Main Container
 
   div.main-container {
     div.grid-content-panel {
       margin: auto;
+        div.about-photo img {
+          max-width: 200px;
+          margin-left: auto;
+          margin-right: auto;
+          margin-bottom: 24px;
+        }
     }
     div.grid-logo {
       position: relative;
-      height: 320px;
       div.grid-logo-content {
         position: static;
         transform: translate(0,0);
-        padding-top: 32px;
       }
       svg {
         width: 50%;
@@ -146,21 +229,72 @@
 // Small
 
 @media only screen and (max-width: 640px) {
+  // Body
+  body div.main-container-home {
+    background-image: url('../img/about/ajPhotoFull.png');
+    background-repeat: no-repeat;
+    background-position: 25% 25%;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  // Content
+  div.grid-content-panel {
+    background: $color-white;
+  }
+
   // Main Container
   body div.main-container {
     min-width: 300px;
     overflow: scroll;
-    div.about-photo {
-      max-width: 200px;
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: 24px;
+    div.grid-logo {
+      svg {
+        width: 25%;
+      }
+      img.logo {
+        padding-top: 0;
+        margin-top: -16px;
+      }
+    }
+    div.grid-logo.grid-logo-desktop {
+      display: none;
+    }
+    div.grid-logo.grid-logo-mobile {
+      height: 90vh;
+      display: block;
+      p {
+        display: inline-block;
+        text-align: center;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      p#arrow-down {
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      div.grid-logo-content {
+        margin-top: 50%;
+      }
+    }
+    div.grid-content-panel {
+      margin-top: 60vh;
+      div.about-photo img {
+        max-width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 24px;
+      }
+      div.photo img{
+        width: 100%;
+        padding-right: 0;
+        margin-bottom: 24px;
+      }
     }
     div.about-intro {
       text-align: center;
     }
-    div.photo {
-      margin-bottom: 24px;
+    div.about-photo {
+      display: none;
     }
   }
   body div.project-view {

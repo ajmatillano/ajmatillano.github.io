@@ -538,6 +538,11 @@ a#forward:hover {
   }
 }
 
+ p#arrow-down {
+  animation: arrowDownAnim 3s 0s infinite;
+  -webkit-animation-fill-mode: infinite;/* Safari 4.0 - 8.0 */
+}
+
 @keyframes rarrAnim {
   0% {
     margin-right: -5px;
@@ -547,6 +552,27 @@ a#forward:hover {
   }
   100% {
     margin-right: -5px;
+  }
+}
+
+@keyframes arrowDownAnim {
+  0% {
+    margin-bottom: -5px;
+  }
+  5% {
+    margin-bottom: -10px;
+  }
+  10% {
+    margin-bottom: -15px;
+  }
+  15% {
+    margin-bottom: -10px;
+  }
+  20% {
+    margin-bottom: -5px;
+  }
+  100% {
+    margin-bottom: -5px;
   }
 }
 
