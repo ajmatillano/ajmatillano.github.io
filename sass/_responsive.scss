@@ -94,8 +94,8 @@
       display: none;
     }
     div.grid-logo.grid-logo-mobile {
-      padding-top: 200px;
-      padding-bottom: 200px;
+      padding-top: 25%;
+      padding-bottom: 25%;
       display: block;
       p {
         text-align: center;
@@ -110,7 +110,7 @@
       }
     }
     div.grid-content-panel {
-      margin-top: 50%;
+      margin-top: 64%;
       div.about-photo img {
         max-width: 200px;
         margin-left: auto;
@@ -234,6 +234,7 @@
     background-repeat: no-repeat;
     background-position: 25% 25%;
     background-attachment: fixed;
+    background-size: 150%;
   }
 
   // Main Container
@@ -250,8 +251,8 @@
       }
     }
     div.grid-logo.grid-logo-mobile {
-      padding-top: 200px;
-      padding-bottom: 200px;
+      padding-top: 40%;
+      padding-bottom: 40%;
       display: block;
       display: block;
       p {
