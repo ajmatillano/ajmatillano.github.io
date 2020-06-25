@@ -82,6 +82,10 @@ div.grid-content-panel {
   div.about-intro {
     text-align: center;
     display: none;
+    img {
+      padding-bottom: 40px;
+      width: 100%;
+    }
   }
   div.project-preview {
     position: relative;

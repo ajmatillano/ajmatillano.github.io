@@ -64,11 +64,11 @@
 @media only screen and (max-width: 1024px) {
   // Body
   body div.main-container-home {
-    background-image: url('../img/about/ajPhotoFull.png');
+  /*  background-image: url('../img/about/ajPhotoFull.png');
     background-repeat: no-repeat;
     background-position: left;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: cover; */
   }
   // Content
   div.grid-content-panel {
@@ -110,7 +110,7 @@
       }
     }
     div.grid-content-panel {
-      margin-top: 64%;
+    //  margin-top: 64%;
       div.about-photo img {
         max-width: 200px;
         margin-left: auto;
@@ -229,13 +229,13 @@
 
 @media only screen and (max-width: 640px) {
   // Body
-  body div.main-container-home {
+  /*body div.main-container-home {
     background-image: url('../img/about/ajPhotoFull.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: left top;
     background-size: 120%;
-  }
+  }*/
 
   // Main Container
   body div.main-container {
