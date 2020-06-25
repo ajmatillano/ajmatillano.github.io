@@ -93,8 +93,9 @@
     div.grid-logo-desktop {
       display: none;
     }
-    div.grid-logo.grid-logo-mobile, div.grid-logo {
-      height: 90vh;
+    div.grid-logo.grid-logo-mobile {
+      padding-top: 35%;
+      padding-bottom: 35%;
       display: block;
       p {
         text-align: center;
@@ -106,9 +107,6 @@
       p#arrow-down {
         left: 50%;
         transform: translateX(-50%);
-      }
-      div.grid-logo-content {
-        margin-top: 25vh;
       }
     }
     div.grid-content-panel {
@@ -235,7 +233,7 @@
     background-repeat: no-repeat;
     background-position: 25% 25%;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: 200%;
   }
   // Content
   div.grid-content-panel {
@@ -256,7 +254,9 @@
       }
     }
     div.grid-logo.grid-logo-mobile {
-      height: 90vh;
+      padding-top: 60%;
+      padding-bottom: 60%;
+      display: block;
       display: block;
       p {
         display: inline-block;
@@ -271,7 +271,6 @@
       }
     }
     div.grid-content-panel {
-      margin-top: 60vh;
       div.grid-logo-content {
         display: none;
       }
@@ -317,5 +316,4 @@
       }
     }
   }
-
 }

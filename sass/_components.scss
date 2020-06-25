@@ -31,7 +31,8 @@ div.grid-left-panel {
   position: fixed;
   background-image: url('../img/about/ajPhotoFull.png');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position: 25% 25%;
+  background-size: 120%;
   div.grid-left-panel-content {
     height: 100vh;
     background: linear-gradient(360deg, #0A374E 0%, rgba(10, 55, 78, 0) 100%);
