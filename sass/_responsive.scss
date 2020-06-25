@@ -281,11 +281,14 @@
         margin-right: auto;
         margin-bottom: 24px;
       }
-      div.photo img{
-        width: 100%;
+      div.photo {
         padding-right: 0;
-        margin-bottom: 24px;
+        img {
+          width: 100%;
+          padding-right: 0;
+        }
       }
+
     }
     div.about-intro {
       text-align: center;
