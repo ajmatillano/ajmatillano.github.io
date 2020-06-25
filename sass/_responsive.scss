@@ -1,6 +1,7 @@
 // Large
 
 @media only screen and (min-width: 2300px) {
+
   div.main-container.project-view {
     margin: auto;
     max-width: 1024px;
@@ -38,23 +39,23 @@
   }
 
   h1 {
-    font-size: 100px;
-    line-height: 160px;
-  }
-
-  h2 {
     font-size: 80px;
     line-height: 120px;
   }
 
-  h3 {
+  h2 {
     font-size: 64px;
-    line-height: 96px;
+    line-height: 90px;
+  }
+
+  h3 {
+    font-size: 48px;
+    line-height: 80px;
   }
 
   h4 {
-    font-size: 48px;
-    line-height: 64px;
+    font-size: 32px;
+    line-height: 45px;
   }
 }
 
@@ -78,15 +79,18 @@
   body div.main-container {
     min-width: 300px;
     overflow: scroll;
+    div.grid-left-panel {
+      display: none;
+    }
     div.grid-logo {
       svg {
-        width: 25%;
+        max-width: 140px;
       }
       img.logo {
         padding-top: 0;
       }
     }
-    div.grid-logo.grid-logo-desktop {
+    div.grid-logo-desktop {
       display: none;
     }
     div.grid-logo.grid-logo-mobile, div.grid-logo {
@@ -121,17 +125,13 @@
     }
     div.about-intro {
       text-align: center;
-    }
-    div.about-photo {
-      display: none;
+      display: block;
     }
   }
   body div.project-view {
     padding-left: 24px;
     padding-right: 24px;
   }
-
-// Main Container
 
   div.main-container {
     div.grid-content-panel {
@@ -255,9 +255,6 @@
         margin-top: -16px;
       }
     }
-    div.grid-logo.grid-logo-desktop {
-      display: none;
-    }
     div.grid-logo.grid-logo-mobile {
       height: 90vh;
       display: block;
@@ -272,12 +269,12 @@
         left: 50%;
         transform: translateX(-50%);
       }
-      div.grid-logo-content {
-        margin-top: 50%;
-      }
     }
     div.grid-content-panel {
       margin-top: 60vh;
+      div.grid-logo-content {
+        display: none;
+      }
       div.about-photo img {
         max-width: 200px;
         margin-left: auto;
@@ -292,9 +289,7 @@
     }
     div.about-intro {
       text-align: center;
-    }
-    div.about-photo {
-      display: none;
+      display: block;
     }
   }
   body div.project-view {

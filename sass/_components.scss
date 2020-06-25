@@ -6,8 +6,6 @@ div.grid-logo.grid-logo-mobile {
   background-color: #FFFFFF;
 }
 div.grid-logo {
-  position: fixed;
-  background-color: $color-secondary1;
   div.grid-logo-content {
     position: absolute;
     top: 45%;
@@ -23,9 +21,33 @@ div.grid-logo {
   }
   img.logo {
     display: block;
-    margin-top: 24px;
     margin-left: auto;
     margin-right: auto;
+  }
+}
+
+
+div.grid-left-panel {
+  position: fixed;
+  background-image: url('../img/about/ajPhotoFull.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  div.grid-left-panel-content {
+    height: 100vh;
+    background: linear-gradient(360deg, #0A374E 0%, rgba(10, 55, 78, 0) 100%);
+    p {
+      padding-left: 40px;
+      padding-right: 40px;
+      color: $color-white;
+      position: absolute;
+      bottom: 40px;
+      a {
+        color: $color-tertiary1;
+        &:hover {
+          color: $color-tertiary1-dark;
+        }
+      }
+    }
   }
 }
 
@@ -35,8 +57,20 @@ div.grid-content-panel {
   padding: 48px;
   margin-left: 50%;
   overflow-y: scroll;
+  div.grid-logo-desktop {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    svg {
+      max-width: 140px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
   div.about-intro {
     text-align: center;
+    display: none;
   }
   div.project-preview {
     position: relative;
