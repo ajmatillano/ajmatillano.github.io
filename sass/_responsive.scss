@@ -294,9 +294,12 @@
       display: block;
     }
   }
-  body div.project-view {
-    padding-left: 24px;
-    padding-right: 24px;
+  div.grid-content-panel div.project-preview {
+    padding-left: 0px;
+    padding-left: 0px;
+    div.project-info {
+      padding-left: 0px;
+    }
   }
 
   // Back button
