@@ -337,6 +337,26 @@ div.grid-project div.project-section p.font-small {
   margin-bottom: 0px;
 }
 
+div.talk-gallery .cell {
+  padding-right: 16px;
+}
+div.talk-gallery .cell :last-child {
+  padding-right: 0px;
+}
+div.talk-gallery p {
+  margin-bottom: 0.5rem;
+}
+div.talk-gallery img {
+  margin-bottom: 8px;
+  width: 100%;
+  border-radius: 4px;
+}
+
+div.project-preview img {
+  width: 100%;
+  border-radius: 4px;
+}
+
 /* Head White */
 #aj-head {
   opacity: 0;

@@ -273,3 +273,29 @@ div.grid-project {
     }
   }
 }
+
+// Homepage
+
+div.talk-gallery {
+  .cell {
+    padding-right: 16px;
+    :last-child {
+      padding-right: 0px;
+    }
+  }
+  p {
+  margin-bottom: 0.5rem;
+  }
+  img {
+  margin-bottom: 8px;
+  width: 100%;
+  border-radius: 4px;
+  }
+}
+
+div.project-preview {
+  img {
+  width: 100%;
+  border-radius: 4px;
+  }
+}
